@@ -46,6 +46,8 @@ API documentation is generated with `docfx` and published via GitHub Pages:
 
 - `https://italbytz.github.io/nuget-foundation/`
 
+The doc site now also includes a short guide to the shared building blocks in this repo, covering common service/result abstractions, Open XML helpers, and music-related contracts.
+
 If the URL still returns `404`, wait until the `CI` workflow on `main` has completed the first Pages publish run.
 
 ## Quality checks

@@ -1,4 +1,8 @@
 - name: Home
   href: index.md
+- name: Guides
+  items:
+    - name: Shared building blocks
+      href: docs/shared-building-blocks.md
 - name: API Reference
   href: api/
