@@ -56,6 +56,12 @@ This repository includes:
 - automated `restore`, `build`, `test`, `pack`, and docs publication
 - a `docfx` setup under `docfx/`
 
+## Release model
+
+- `nuget-foundation` now follows the stable `1.0.x` line for the already consolidated foundation packages
+- a pushed tag such as `v1.0.1` triggers the release-ready pipeline in GitHub Actions
+- if the repository secret `NUGET_API_KEY` is configured, the workflow also publishes `.nupkg` and `.snupkg` files to NuGet
+
 ## Local validation
 
 ```bash
