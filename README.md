@@ -39,3 +39,11 @@ dotnet pack nuget-foundation.sln -c Release -v minimal
 dotnet tool restore
 dotnet tool run docfx docfx/docfx.json
 ```
+
+## Published documentation
+
+After the first successful GitHub Pages deployment, the generated `docfx` site will be available at:
+
+- `https://italbytz.github.io/nuget-foundation/`
+
+If the URL still returns `404`, wait until the `CI` workflow on `main` has completed the first Pages publish run.
