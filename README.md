@@ -28,6 +28,8 @@ Please use the new package names for all new development.
 
 This repository now includes a baseline `GitHub Actions` workflow in `.github/workflows/ci.yml` and a `docfx` setup under `docfx/`.
 
+For GitHub Pages deployment, enable **Settings → Pages → Build and deployment → Source = GitHub Actions** in the repository.
+
 Local validation commands:
 
 ```bash
