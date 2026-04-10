@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: Italbytz.Music.Abstractions.ISearchTerm
+  commentId: T:Italbytz.Music.Abstractions.ISearchTerm
+  id: ISearchTerm
+  parent: Italbytz.Music.Abstractions
+  children:
+  - Italbytz.Music.Abstractions.ISearchTerm.Term
+  langs:
+  - csharp
+  - vb
+  name: ISearchTerm
+  nameWithType: ISearchTerm
+  fullName: Italbytz.Music.Abstractions.ISearchTerm
+  type: Interface
+  source:
+    id: ISearchTerm
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Music.Abstractions/ISearchTerm.cs
+    startLine: 2
+  assemblies:
+  - Italbytz.Music.Abstractions
+  namespace: Italbytz.Music.Abstractions
+  syntax:
+    content: public interface ISearchTerm
+    content.vb: Public Interface ISearchTerm
+- uid: Italbytz.Music.Abstractions.ISearchTerm.Term
+  commentId: P:Italbytz.Music.Abstractions.ISearchTerm.Term
+  id: Term
+  parent: Italbytz.Music.Abstractions.ISearchTerm
+  langs:
+  - csharp
+  - vb
+  name: Term
+  nameWithType: ISearchTerm.Term
+  fullName: Italbytz.Music.Abstractions.ISearchTerm.Term
+  type: Property
+  source:
+    id: Term
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Music.Abstractions/ISearchTerm.cs
+    startLine: 4
+  assemblies:
+  - Italbytz.Music.Abstractions
+  namespace: Italbytz.Music.Abstractions
+  syntax:
+    content: string Term { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Term As String
+  overload: Italbytz.Music.Abstractions.ISearchTerm.Term*
+references:
+- uid: Italbytz.Music.Abstractions
+  commentId: N:Italbytz.Music.Abstractions
+  href: Italbytz.html
+  name: Italbytz.Music.Abstractions
+  nameWithType: Italbytz.Music.Abstractions
+  fullName: Italbytz.Music.Abstractions
+  spec.csharp:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Music
+    name: Music
+    href: Italbytz.Music.html
+  - name: .
+  - uid: Italbytz.Music.Abstractions
+    name: Abstractions
+    href: Italbytz.Music.Abstractions.html
+  spec.vb:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Music
+    name: Music
+    href: Italbytz.Music.html
+  - name: .
+  - uid: Italbytz.Music.Abstractions
+    name: Abstractions
+    href: Italbytz.Music.Abstractions.html
+- uid: Italbytz.Music.Abstractions.ISearchTerm.Term*
+  commentId: Overload:Italbytz.Music.Abstractions.ISearchTerm.Term
+  href: Italbytz.Music.Abstractions.ISearchTerm.html#Italbytz_Music_Abstractions_ISearchTerm_Term
+  name: Term
+  nameWithType: ISearchTerm.Term
+  fullName: Italbytz.Music.Abstractions.ISearchTerm.Term
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

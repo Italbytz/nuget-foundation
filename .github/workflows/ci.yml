@@ -1,0 +1,56 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build-test-pack:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Restore .NET tools
+        run: dotnet tool restore
+
+      - name: Restore solution
+        run: dotnet restore nuget-foundation.sln
+
+      - name: Build solution
+        run: dotnet build nuget-foundation.sln --configuration Release --no-restore
+
+      - name: Run tests
+        run: dotnet test nuget-foundation.sln --configuration Release --no-build --verbosity minimal
+
+      - name: Pack packages
+        run: dotnet pack nuget-foundation.sln --configuration Release --no-build --verbosity minimal --output ./artifacts/packages
+
+      - name: Build docfx site
+        run: dotnet tool run docfx docfx/docfx.json
+
+      - name: Upload NuGet packages
+        uses: actions/upload-artifact@v4
+        with:
+          name: nuget-packages
+          path: artifacts/packages/*.nupkg
+          if-no-files-found: error
+
+      - name: Upload documentation site
+        uses: actions/upload-artifact@v4
+        with:
+          name: docfx-site
+          path: docfx/_site
+          if-no-files-found: error

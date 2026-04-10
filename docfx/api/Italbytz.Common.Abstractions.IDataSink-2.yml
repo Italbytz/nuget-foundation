@@ -1,0 +1,334 @@
+### YamlMime:ManagedReference
+items:
+- uid: Italbytz.Common.Abstractions.IDataSink`2
+  commentId: T:Italbytz.Common.Abstractions.IDataSink`2
+  id: IDataSink`2
+  parent: Italbytz.Common.Abstractions
+  children:
+  - Italbytz.Common.Abstractions.IDataSink`2.Create(`1)
+  - Italbytz.Common.Abstractions.IDataSink`2.Delete(`0)
+  - Italbytz.Common.Abstractions.IDataSink`2.Update(`0,`1)
+  langs:
+  - csharp
+  - vb
+  name: IDataSink<TId, TEntity>
+  nameWithType: IDataSink<TId, TEntity>
+  fullName: Italbytz.Common.Abstractions.IDataSink<TId, TEntity>
+  type: Interface
+  source:
+    id: IDataSink
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/IDataSink.cs
+    startLine: 5
+  assemblies:
+  - Italbytz.Common.Abstractions
+  namespace: Italbytz.Common.Abstractions
+  summary: A data sink providing create, update, and delete operations.
+  example: []
+  syntax:
+    content: public interface IDataSink<TId, TEntity>
+    typeParameters:
+    - id: TId
+    - id: TEntity
+    content.vb: Public Interface IDataSink(Of TId, TEntity)
+  nameWithType.vb: IDataSink(Of TId, TEntity)
+  fullName.vb: Italbytz.Common.Abstractions.IDataSink(Of TId, TEntity)
+  name.vb: IDataSink(Of TId, TEntity)
+- uid: Italbytz.Common.Abstractions.IDataSink`2.Create(`1)
+  commentId: M:Italbytz.Common.Abstractions.IDataSink`2.Create(`1)
+  id: Create(`1)
+  parent: Italbytz.Common.Abstractions.IDataSink`2
+  langs:
+  - csharp
+  - vb
+  name: Create(TEntity)
+  nameWithType: IDataSink<TId, TEntity>.Create(TEntity)
+  fullName: Italbytz.Common.Abstractions.IDataSink<TId, TEntity>.Create(TEntity)
+  type: Method
+  source:
+    id: Create
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/IDataSink.cs
+    startLine: 10
+  assemblies:
+  - Italbytz.Common.Abstractions
+  namespace: Italbytz.Common.Abstractions
+  summary: Creates an entity.
+  example: []
+  syntax:
+    content: Task<TId?> Create(TEntity entity)
+    parameters:
+    - id: entity
+      type: '{TEntity}'
+    return:
+      type: System.Threading.Tasks.Task{{TId}}
+    content.vb: Function Create(entity As TEntity) As Task(Of TId)
+  overload: Italbytz.Common.Abstractions.IDataSink`2.Create*
+  nameWithType.vb: IDataSink(Of TId, TEntity).Create(TEntity)
+  fullName.vb: Italbytz.Common.Abstractions.IDataSink(Of TId, TEntity).Create(TEntity)
+- uid: Italbytz.Common.Abstractions.IDataSink`2.Update(`0,`1)
+  commentId: M:Italbytz.Common.Abstractions.IDataSink`2.Update(`0,`1)
+  id: Update(`0,`1)
+  parent: Italbytz.Common.Abstractions.IDataSink`2
+  langs:
+  - csharp
+  - vb
+  name: Update(TId, TEntity)
+  nameWithType: IDataSink<TId, TEntity>.Update(TId, TEntity)
+  fullName: Italbytz.Common.Abstractions.IDataSink<TId, TEntity>.Update(TId, TEntity)
+  type: Method
+  source:
+    id: Update
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/IDataSink.cs
+    startLine: 15
+  assemblies:
+  - Italbytz.Common.Abstractions
+  namespace: Italbytz.Common.Abstractions
+  summary: Updates an entity.
+  example: []
+  syntax:
+    content: Task<bool> Update(TId id, TEntity entity)
+    parameters:
+    - id: id
+      type: '{TId}'
+    - id: entity
+      type: '{TEntity}'
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function Update(id As TId, entity As TEntity) As Task(Of Boolean)
+  overload: Italbytz.Common.Abstractions.IDataSink`2.Update*
+  nameWithType.vb: IDataSink(Of TId, TEntity).Update(TId, TEntity)
+  fullName.vb: Italbytz.Common.Abstractions.IDataSink(Of TId, TEntity).Update(TId, TEntity)
+- uid: Italbytz.Common.Abstractions.IDataSink`2.Delete(`0)
+  commentId: M:Italbytz.Common.Abstractions.IDataSink`2.Delete(`0)
+  id: Delete(`0)
+  parent: Italbytz.Common.Abstractions.IDataSink`2
+  langs:
+  - csharp
+  - vb
+  name: Delete(TId)
+  nameWithType: IDataSink<TId, TEntity>.Delete(TId)
+  fullName: Italbytz.Common.Abstractions.IDataSink<TId, TEntity>.Delete(TId)
+  type: Method
+  source:
+    id: Delete
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/IDataSink.cs
+    startLine: 20
+  assemblies:
+  - Italbytz.Common.Abstractions
+  namespace: Italbytz.Common.Abstractions
+  summary: Deletes an entity.
+  example: []
+  syntax:
+    content: Task<bool> Delete(TId id)
+    parameters:
+    - id: id
+      type: '{TId}'
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function Delete(id As TId) As Task(Of Boolean)
+  overload: Italbytz.Common.Abstractions.IDataSink`2.Delete*
+  nameWithType.vb: IDataSink(Of TId, TEntity).Delete(TId)
+  fullName.vb: Italbytz.Common.Abstractions.IDataSink(Of TId, TEntity).Delete(TId)
+references:
+- uid: Italbytz.Common.Abstractions
+  commentId: N:Italbytz.Common.Abstractions
+  href: Italbytz.html
+  name: Italbytz.Common.Abstractions
+  nameWithType: Italbytz.Common.Abstractions
+  fullName: Italbytz.Common.Abstractions
+  spec.csharp:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Common
+    name: Common
+    href: Italbytz.Common.html
+  - name: .
+  - uid: Italbytz.Common.Abstractions
+    name: Abstractions
+    href: Italbytz.Common.Abstractions.html
+  spec.vb:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Common
+    name: Common
+    href: Italbytz.Common.html
+  - name: .
+  - uid: Italbytz.Common.Abstractions
+    name: Abstractions
+    href: Italbytz.Common.Abstractions.html
+- uid: Italbytz.Common.Abstractions.IDataSink`2.Create*
+  commentId: Overload:Italbytz.Common.Abstractions.IDataSink`2.Create
+  href: Italbytz.Common.Abstractions.IDataSink-2.html#Italbytz_Common_Abstractions_IDataSink_2_Create__1_
+  name: Create
+  nameWithType: IDataSink<TId, TEntity>.Create
+  fullName: Italbytz.Common.Abstractions.IDataSink<TId, TEntity>.Create
+  nameWithType.vb: IDataSink(Of TId, TEntity).Create
+  fullName.vb: Italbytz.Common.Abstractions.IDataSink(Of TId, TEntity).Create
+- uid: '{TEntity}'
+  commentId: '!:TEntity'
+  definition: TEntity
+  name: TEntity
+  nameWithType: TEntity
+  fullName: TEntity
+- uid: System.Threading.Tasks.Task{{TId}}
+  commentId: T:System.Threading.Tasks.Task{`0}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TId>
+  nameWithType: Task<TId>
+  fullName: System.Threading.Tasks.Task<TId>
+  nameWithType.vb: Task(Of TId)
+  fullName.vb: System.Threading.Tasks.Task(Of TId)
+  name.vb: Task(Of TId)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TId
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TId
+  - name: )
+- uid: TEntity
+  name: TEntity
+  nameWithType: TEntity
+  fullName: TEntity
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Italbytz.Common.Abstractions.IDataSink`2.Update*
+  commentId: Overload:Italbytz.Common.Abstractions.IDataSink`2.Update
+  href: Italbytz.Common.Abstractions.IDataSink-2.html#Italbytz_Common_Abstractions_IDataSink_2_Update__0__1_
+  name: Update
+  nameWithType: IDataSink<TId, TEntity>.Update
+  fullName: Italbytz.Common.Abstractions.IDataSink<TId, TEntity>.Update
+  nameWithType.vb: IDataSink(Of TId, TEntity).Update
+  fullName.vb: Italbytz.Common.Abstractions.IDataSink(Of TId, TEntity).Update
+- uid: '{TId}'
+  commentId: '!:TId'
+  definition: TId
+  name: TId
+  nameWithType: TId
+  fullName: TId
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: TId
+  name: TId
+  nameWithType: TId
+  fullName: TId
+- uid: Italbytz.Common.Abstractions.IDataSink`2.Delete*
+  commentId: Overload:Italbytz.Common.Abstractions.IDataSink`2.Delete
+  href: Italbytz.Common.Abstractions.IDataSink-2.html#Italbytz_Common_Abstractions_IDataSink_2_Delete__0_
+  name: Delete
+  nameWithType: IDataSink<TId, TEntity>.Delete
+  fullName: Italbytz.Common.Abstractions.IDataSink<TId, TEntity>.Delete
+  nameWithType.vb: IDataSink(Of TId, TEntity).Delete
+  fullName.vb: Italbytz.Common.Abstractions.IDataSink(Of TId, TEntity).Delete

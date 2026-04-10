@@ -1,0 +1,732 @@
+### YamlMime:ManagedReference
+items:
+- uid: Italbytz.Common.Random.RandomExtensions
+  commentId: T:Italbytz.Common.Random.RandomExtensions
+  id: RandomExtensions
+  parent: Italbytz.Common.Random
+  children:
+  - Italbytz.Common.Random.RandomExtensions.NextDouble(System.Random,System.Double)
+  - Italbytz.Common.Random.RandomExtensions.NextDouble(System.Random,System.Double,System.Double)
+  - Italbytz.Common.Random.RandomExtensions.NextIntArray(System.Random,System.Int32,System.Int32,System.Int32)
+  - Italbytz.Common.Random.RandomExtensions.NextUniqueIntArray(System.Random,System.Int32,System.Int32,System.Int32)
+  - Italbytz.Common.Random.RandomExtensions.RandomElement``1(System.Random,``0[])
+  - Italbytz.Common.Random.RandomExtensions.RollDie(System.Random,System.Int32)
+  - Italbytz.Common.Random.RandomExtensions.Shuffle``1(System.Random,``0[])
+  - Italbytz.Common.Random.RandomExtensions.ShuffledStrings(System.Random,System.String[])
+  langs:
+  - csharp
+  - vb
+  name: RandomExtensions
+  nameWithType: RandomExtensions
+  fullName: Italbytz.Common.Random.RandomExtensions
+  type: Class
+  source:
+    id: RandomExtensions
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
+    startLine: 7
+  assemblies:
+  - Italbytz.Common.Random
+  namespace: Italbytz.Common.Random
+  summary: Helpful extensions for <xref href="System.Random" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static class RandomExtensions
+    content.vb: Public Module RandomExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Italbytz.Common.Random.RandomExtensions.NextDouble(System.Random,System.Double)
+  commentId: M:Italbytz.Common.Random.RandomExtensions.NextDouble(System.Random,System.Double)
+  id: NextDouble(System.Random,System.Double)
+  isExtensionMethod: true
+  parent: Italbytz.Common.Random.RandomExtensions
+  langs:
+  - csharp
+  - vb
+  name: NextDouble(Random, double)
+  nameWithType: RandomExtensions.NextDouble(Random, double)
+  fullName: Italbytz.Common.Random.RandomExtensions.NextDouble(System.Random, double)
+  type: Method
+  source:
+    id: NextDouble
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
+    startLine: 9
+  assemblies:
+  - Italbytz.Common.Random
+  namespace: Italbytz.Common.Random
+  syntax:
+    content: public static double NextDouble(this Random random, double max)
+    parameters:
+    - id: random
+      type: System.Random
+    - id: max
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function NextDouble(random As Random, max As Double) As Double
+  overload: Italbytz.Common.Random.RandomExtensions.NextDouble*
+  nameWithType.vb: RandomExtensions.NextDouble(Random, Double)
+  fullName.vb: Italbytz.Common.Random.RandomExtensions.NextDouble(System.Random, Double)
+  name.vb: NextDouble(Random, Double)
+- uid: Italbytz.Common.Random.RandomExtensions.NextDouble(System.Random,System.Double,System.Double)
+  commentId: M:Italbytz.Common.Random.RandomExtensions.NextDouble(System.Random,System.Double,System.Double)
+  id: NextDouble(System.Random,System.Double,System.Double)
+  isExtensionMethod: true
+  parent: Italbytz.Common.Random.RandomExtensions
+  langs:
+  - csharp
+  - vb
+  name: NextDouble(Random, double, double)
+  nameWithType: RandomExtensions.NextDouble(Random, double, double)
+  fullName: Italbytz.Common.Random.RandomExtensions.NextDouble(System.Random, double, double)
+  type: Method
+  source:
+    id: NextDouble
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
+    startLine: 14
+  assemblies:
+  - Italbytz.Common.Random
+  namespace: Italbytz.Common.Random
+  syntax:
+    content: public static double NextDouble(this Random random, double min, double max)
+    parameters:
+    - id: random
+      type: System.Random
+    - id: min
+      type: System.Double
+    - id: max
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function NextDouble(random As Random, min As Double, max As Double) As Double
+  overload: Italbytz.Common.Random.RandomExtensions.NextDouble*
+  nameWithType.vb: RandomExtensions.NextDouble(Random, Double, Double)
+  fullName.vb: Italbytz.Common.Random.RandomExtensions.NextDouble(System.Random, Double, Double)
+  name.vb: NextDouble(Random, Double, Double)
+- uid: Italbytz.Common.Random.RandomExtensions.RollDie(System.Random,System.Int32)
+  commentId: M:Italbytz.Common.Random.RandomExtensions.RollDie(System.Random,System.Int32)
+  id: RollDie(System.Random,System.Int32)
+  isExtensionMethod: true
+  parent: Italbytz.Common.Random.RandomExtensions
+  langs:
+  - csharp
+  - vb
+  name: RollDie(Random, int)
+  nameWithType: RandomExtensions.RollDie(Random, int)
+  fullName: Italbytz.Common.Random.RandomExtensions.RollDie(System.Random, int)
+  type: Method
+  source:
+    id: RollDie
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
+    startLine: 19
+  assemblies:
+  - Italbytz.Common.Random
+  namespace: Italbytz.Common.Random
+  syntax:
+    content: public static int RollDie(this Random random, int sides)
+    parameters:
+    - id: random
+      type: System.Random
+    - id: sides
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function RollDie(random As Random, sides As Integer) As Integer
+  overload: Italbytz.Common.Random.RandomExtensions.RollDie*
+  nameWithType.vb: RandomExtensions.RollDie(Random, Integer)
+  fullName.vb: Italbytz.Common.Random.RandomExtensions.RollDie(System.Random, Integer)
+  name.vb: RollDie(Random, Integer)
+- uid: Italbytz.Common.Random.RandomExtensions.Shuffle``1(System.Random,``0[])
+  commentId: M:Italbytz.Common.Random.RandomExtensions.Shuffle``1(System.Random,``0[])
+  id: Shuffle``1(System.Random,``0[])
+  isExtensionMethod: true
+  parent: Italbytz.Common.Random.RandomExtensions
+  langs:
+  - csharp
+  - vb
+  name: Shuffle<T>(Random, T[])
+  nameWithType: RandomExtensions.Shuffle<T>(Random, T[])
+  fullName: Italbytz.Common.Random.RandomExtensions.Shuffle<T>(System.Random, T[])
+  type: Method
+  source:
+    id: Shuffle
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
+    startLine: 24
+  assemblies:
+  - Italbytz.Common.Random
+  namespace: Italbytz.Common.Random
+  syntax:
+    content: public static void Shuffle<T>(this Random random, T[] items)
+    parameters:
+    - id: random
+      type: System.Random
+    - id: items
+      type: '{T}[]'
+    typeParameters:
+    - id: T
+    content.vb: Public Shared Sub Shuffle(Of T)(random As Random, items As T())
+  overload: Italbytz.Common.Random.RandomExtensions.Shuffle*
+  nameWithType.vb: RandomExtensions.Shuffle(Of T)(Random, T())
+  fullName.vb: Italbytz.Common.Random.RandomExtensions.Shuffle(Of T)(System.Random, T())
+  name.vb: Shuffle(Of T)(Random, T())
+- uid: Italbytz.Common.Random.RandomExtensions.RandomElement``1(System.Random,``0[])
+  commentId: M:Italbytz.Common.Random.RandomExtensions.RandomElement``1(System.Random,``0[])
+  id: RandomElement``1(System.Random,``0[])
+  isExtensionMethod: true
+  parent: Italbytz.Common.Random.RandomExtensions
+  langs:
+  - csharp
+  - vb
+  name: RandomElement<T>(Random, T[])
+  nameWithType: RandomExtensions.RandomElement<T>(Random, T[])
+  fullName: Italbytz.Common.Random.RandomExtensions.RandomElement<T>(System.Random, T[])
+  type: Method
+  source:
+    id: RandomElement
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
+    startLine: 33
+  assemblies:
+  - Italbytz.Common.Random
+  namespace: Italbytz.Common.Random
+  syntax:
+    content: public static T RandomElement<T>(this Random random, T[] array)
+    parameters:
+    - id: random
+      type: System.Random
+    - id: array
+      type: '{T}[]'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function RandomElement(Of T)(random As Random, array As T()) As T
+  overload: Italbytz.Common.Random.RandomExtensions.RandomElement*
+  nameWithType.vb: RandomExtensions.RandomElement(Of T)(Random, T())
+  fullName.vb: Italbytz.Common.Random.RandomExtensions.RandomElement(Of T)(System.Random, T())
+  name.vb: RandomElement(Of T)(Random, T())
+- uid: Italbytz.Common.Random.RandomExtensions.NextIntArray(System.Random,System.Int32,System.Int32,System.Int32)
+  commentId: M:Italbytz.Common.Random.RandomExtensions.NextIntArray(System.Random,System.Int32,System.Int32,System.Int32)
+  id: NextIntArray(System.Random,System.Int32,System.Int32,System.Int32)
+  isExtensionMethod: true
+  parent: Italbytz.Common.Random.RandomExtensions
+  langs:
+  - csharp
+  - vb
+  name: NextIntArray(Random, int, int, int)
+  nameWithType: RandomExtensions.NextIntArray(Random, int, int, int)
+  fullName: Italbytz.Common.Random.RandomExtensions.NextIntArray(System.Random, int, int, int)
+  type: Method
+  source:
+    id: NextIntArray
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
+    startLine: 38
+  assemblies:
+  - Italbytz.Common.Random
+  namespace: Italbytz.Common.Random
+  syntax:
+    content: public static int[] NextIntArray(this Random random, int size, int min, int max)
+    parameters:
+    - id: random
+      type: System.Random
+    - id: size
+      type: System.Int32
+    - id: min
+      type: System.Int32
+    - id: max
+      type: System.Int32
+    return:
+      type: System.Int32[]
+    content.vb: Public Shared Function NextIntArray(random As Random, size As Integer, min As Integer, max As Integer) As Integer()
+  overload: Italbytz.Common.Random.RandomExtensions.NextIntArray*
+  nameWithType.vb: RandomExtensions.NextIntArray(Random, Integer, Integer, Integer)
+  fullName.vb: Italbytz.Common.Random.RandomExtensions.NextIntArray(System.Random, Integer, Integer, Integer)
+  name.vb: NextIntArray(Random, Integer, Integer, Integer)
+- uid: Italbytz.Common.Random.RandomExtensions.NextUniqueIntArray(System.Random,System.Int32,System.Int32,System.Int32)
+  commentId: M:Italbytz.Common.Random.RandomExtensions.NextUniqueIntArray(System.Random,System.Int32,System.Int32,System.Int32)
+  id: NextUniqueIntArray(System.Random,System.Int32,System.Int32,System.Int32)
+  isExtensionMethod: true
+  parent: Italbytz.Common.Random.RandomExtensions
+  langs:
+  - csharp
+  - vb
+  name: NextUniqueIntArray(Random, int, int, int)
+  nameWithType: RandomExtensions.NextUniqueIntArray(Random, int, int, int)
+  fullName: Italbytz.Common.Random.RandomExtensions.NextUniqueIntArray(System.Random, int, int, int)
+  type: Method
+  source:
+    id: NextUniqueIntArray
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
+    startLine: 46
+  assemblies:
+  - Italbytz.Common.Random
+  namespace: Italbytz.Common.Random
+  syntax:
+    content: public static int[] NextUniqueIntArray(this Random random, int size, int min, int max)
+    parameters:
+    - id: random
+      type: System.Random
+    - id: size
+      type: System.Int32
+    - id: min
+      type: System.Int32
+    - id: max
+      type: System.Int32
+    return:
+      type: System.Int32[]
+    content.vb: Public Shared Function NextUniqueIntArray(random As Random, size As Integer, min As Integer, max As Integer) As Integer()
+  overload: Italbytz.Common.Random.RandomExtensions.NextUniqueIntArray*
+  nameWithType.vb: RandomExtensions.NextUniqueIntArray(Random, Integer, Integer, Integer)
+  fullName.vb: Italbytz.Common.Random.RandomExtensions.NextUniqueIntArray(System.Random, Integer, Integer, Integer)
+  name.vb: NextUniqueIntArray(Random, Integer, Integer, Integer)
+- uid: Italbytz.Common.Random.RandomExtensions.ShuffledStrings(System.Random,System.String[])
+  commentId: M:Italbytz.Common.Random.RandomExtensions.ShuffledStrings(System.Random,System.String[])
+  id: ShuffledStrings(System.Random,System.String[])
+  isExtensionMethod: true
+  parent: Italbytz.Common.Random.RandomExtensions
+  langs:
+  - csharp
+  - vb
+  name: ShuffledStrings(Random, string[])
+  nameWithType: RandomExtensions.ShuffledStrings(Random, string[])
+  fullName: Italbytz.Common.Random.RandomExtensions.ShuffledStrings(System.Random, string[])
+  type: Method
+  source:
+    id: ShuffledStrings
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
+    startLine: 57
+  assemblies:
+  - Italbytz.Common.Random
+  namespace: Italbytz.Common.Random
+  syntax:
+    content: public static string[] ShuffledStrings(this Random random, string[] array)
+    parameters:
+    - id: random
+      type: System.Random
+    - id: array
+      type: System.String[]
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function ShuffledStrings(random As Random, array As String()) As String()
+  overload: Italbytz.Common.Random.RandomExtensions.ShuffledStrings*
+  nameWithType.vb: RandomExtensions.ShuffledStrings(Random, String())
+  fullName.vb: Italbytz.Common.Random.RandomExtensions.ShuffledStrings(System.Random, String())
+  name.vb: ShuffledStrings(Random, String())
+references:
+- uid: System.Random
+  commentId: T:System.Random
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.random
+  name: Random
+  nameWithType: Random
+  fullName: System.Random
+- uid: Italbytz.Common.Random
+  commentId: N:Italbytz.Common.Random
+  href: Italbytz.html
+  name: Italbytz.Common.Random
+  nameWithType: Italbytz.Common.Random
+  fullName: Italbytz.Common.Random
+  spec.csharp:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Common
+    name: Common
+    href: Italbytz.Common.html
+  - name: .
+  - uid: Italbytz.Common.Random
+    name: Random
+    href: Italbytz.Common.Random.html
+  spec.vb:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Common
+    name: Common
+    href: Italbytz.Common.html
+  - name: .
+  - uid: Italbytz.Common.Random
+    name: Random
+    href: Italbytz.Common.Random.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Italbytz.Common.Random.RandomExtensions.NextDouble*
+  commentId: Overload:Italbytz.Common.Random.RandomExtensions.NextDouble
+  href: Italbytz.Common.Random.RandomExtensions.html#Italbytz_Common_Random_RandomExtensions_NextDouble_System_Random_System_Double_
+  name: NextDouble
+  nameWithType: RandomExtensions.NextDouble
+  fullName: Italbytz.Common.Random.RandomExtensions.NextDouble
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Italbytz.Common.Random.RandomExtensions.RollDie*
+  commentId: Overload:Italbytz.Common.Random.RandomExtensions.RollDie
+  href: Italbytz.Common.Random.RandomExtensions.html#Italbytz_Common_Random_RandomExtensions_RollDie_System_Random_System_Int32_
+  name: RollDie
+  nameWithType: RandomExtensions.RollDie
+  fullName: Italbytz.Common.Random.RandomExtensions.RollDie
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Italbytz.Common.Random.RandomExtensions.Shuffle*
+  commentId: Overload:Italbytz.Common.Random.RandomExtensions.Shuffle
+  href: Italbytz.Common.Random.RandomExtensions.html#Italbytz_Common_Random_RandomExtensions_Shuffle__1_System_Random___0___
+  name: Shuffle
+  nameWithType: RandomExtensions.Shuffle
+  fullName: Italbytz.Common.Random.RandomExtensions.Shuffle
+- uid: '{T}[]'
+  isExternal: true
+  name: T[]
+  nameWithType: T[]
+  fullName: T[]
+  nameWithType.vb: T()
+  fullName.vb: T()
+  name.vb: T()
+  spec.csharp:
+  - name: T
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - name: T
+  - name: (
+  - name: )
+- uid: Italbytz.Common.Random.RandomExtensions.RandomElement*
+  commentId: Overload:Italbytz.Common.Random.RandomExtensions.RandomElement
+  href: Italbytz.Common.Random.RandomExtensions.html#Italbytz_Common_Random_RandomExtensions_RandomElement__1_System_Random___0___
+  name: RandomElement
+  nameWithType: RandomExtensions.RandomElement
+  fullName: Italbytz.Common.Random.RandomExtensions.RandomElement
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Italbytz.Common.Random.RandomExtensions.NextIntArray*
+  commentId: Overload:Italbytz.Common.Random.RandomExtensions.NextIntArray
+  href: Italbytz.Common.Random.RandomExtensions.html#Italbytz_Common_Random_RandomExtensions_NextIntArray_System_Random_System_Int32_System_Int32_System_Int32_
+  name: NextIntArray
+  nameWithType: RandomExtensions.NextIntArray
+  fullName: Italbytz.Common.Random.RandomExtensions.NextIntArray
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: Italbytz.Common.Random.RandomExtensions.NextUniqueIntArray*
+  commentId: Overload:Italbytz.Common.Random.RandomExtensions.NextUniqueIntArray
+  href: Italbytz.Common.Random.RandomExtensions.html#Italbytz_Common_Random_RandomExtensions_NextUniqueIntArray_System_Random_System_Int32_System_Int32_System_Int32_
+  name: NextUniqueIntArray
+  nameWithType: RandomExtensions.NextUniqueIntArray
+  fullName: Italbytz.Common.Random.RandomExtensions.NextUniqueIntArray
+- uid: Italbytz.Common.Random.RandomExtensions.ShuffledStrings*
+  commentId: Overload:Italbytz.Common.Random.RandomExtensions.ShuffledStrings
+  href: Italbytz.Common.Random.RandomExtensions.html#Italbytz_Common_Random_RandomExtensions_ShuffledStrings_System_Random_System_String___
+  name: ShuffledStrings
+  nameWithType: RandomExtensions.ShuffledStrings
+  fullName: Italbytz.Common.Random.RandomExtensions.ShuffledStrings
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )

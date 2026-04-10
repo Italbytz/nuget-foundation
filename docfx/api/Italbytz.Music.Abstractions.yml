@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: Italbytz.Music.Abstractions
+  commentId: N:Italbytz.Music.Abstractions
+  id: Italbytz.Music.Abstractions
+  children:
+  - Italbytz.Music.Abstractions.ICollectionEntity
+  - Italbytz.Music.Abstractions.ISearchTerm
+  - Italbytz.Music.Abstractions.ISearchTracksService
+  - Italbytz.Music.Abstractions.ITrackEntity
+  - Italbytz.Music.Abstractions.ITunesSearchEngine
+  langs:
+  - csharp
+  - vb
+  name: Italbytz.Music.Abstractions
+  nameWithType: Italbytz.Music.Abstractions
+  fullName: Italbytz.Music.Abstractions
+  type: Namespace
+  assemblies:
+  - Italbytz.Music.Abstractions
+references:
+- uid: Italbytz.Music.Abstractions.ICollectionEntity
+  commentId: T:Italbytz.Music.Abstractions.ICollectionEntity
+  href: Italbytz.Music.Abstractions.ICollectionEntity.html
+  name: ICollectionEntity
+  nameWithType: ICollectionEntity
+  fullName: Italbytz.Music.Abstractions.ICollectionEntity
+- uid: Italbytz.Music.Abstractions.ISearchTerm
+  commentId: T:Italbytz.Music.Abstractions.ISearchTerm
+  href: Italbytz.Music.Abstractions.ISearchTerm.html
+  name: ISearchTerm
+  nameWithType: ISearchTerm
+  fullName: Italbytz.Music.Abstractions.ISearchTerm
+- uid: Italbytz.Music.Abstractions.ISearchTracksService
+  commentId: T:Italbytz.Music.Abstractions.ISearchTracksService
+  href: Italbytz.Music.Abstractions.ISearchTracksService.html
+  name: ISearchTracksService
+  nameWithType: ISearchTracksService
+  fullName: Italbytz.Music.Abstractions.ISearchTracksService
+- uid: Italbytz.Music.Abstractions.ITrackEntity
+  commentId: T:Italbytz.Music.Abstractions.ITrackEntity
+  href: Italbytz.Music.Abstractions.ITrackEntity.html
+  name: ITrackEntity
+  nameWithType: ITrackEntity
+  fullName: Italbytz.Music.Abstractions.ITrackEntity
+- uid: Italbytz.Music.Abstractions.ITunesSearchEngine
+  commentId: T:Italbytz.Music.Abstractions.ITunesSearchEngine
+  href: Italbytz.Music.Abstractions.ITunesSearchEngine.html
+  name: ITunesSearchEngine
+  nameWithType: ITunesSearchEngine
+  fullName: Italbytz.Music.Abstractions.ITunesSearchEngine

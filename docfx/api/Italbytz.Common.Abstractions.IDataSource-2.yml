@@ -1,0 +1,287 @@
+### YamlMime:ManagedReference
+items:
+- uid: Italbytz.Common.Abstractions.IDataSource`2
+  commentId: T:Italbytz.Common.Abstractions.IDataSource`2
+  id: IDataSource`2
+  parent: Italbytz.Common.Abstractions
+  children:
+  - Italbytz.Common.Abstractions.IDataSource`2.Retrieve(`0)
+  - Italbytz.Common.Abstractions.IDataSource`2.RetrieveAll
+  langs:
+  - csharp
+  - vb
+  name: IDataSource<TId, TEntity>
+  nameWithType: IDataSource<TId, TEntity>
+  fullName: Italbytz.Common.Abstractions.IDataSource<TId, TEntity>
+  type: Interface
+  source:
+    id: IDataSource
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/IDataSource.cs
+    startLine: 5
+  assemblies:
+  - Italbytz.Common.Abstractions
+  namespace: Italbytz.Common.Abstractions
+  summary: A data source providing read access to entities.
+  example: []
+  syntax:
+    content: public interface IDataSource<TId, TEntity>
+    typeParameters:
+    - id: TId
+    - id: TEntity
+    content.vb: Public Interface IDataSource(Of TId, TEntity)
+  nameWithType.vb: IDataSource(Of TId, TEntity)
+  fullName.vb: Italbytz.Common.Abstractions.IDataSource(Of TId, TEntity)
+  name.vb: IDataSource(Of TId, TEntity)
+- uid: Italbytz.Common.Abstractions.IDataSource`2.Retrieve(`0)
+  commentId: M:Italbytz.Common.Abstractions.IDataSource`2.Retrieve(`0)
+  id: Retrieve(`0)
+  parent: Italbytz.Common.Abstractions.IDataSource`2
+  langs:
+  - csharp
+  - vb
+  name: Retrieve(TId)
+  nameWithType: IDataSource<TId, TEntity>.Retrieve(TId)
+  fullName: Italbytz.Common.Abstractions.IDataSource<TId, TEntity>.Retrieve(TId)
+  type: Method
+  source:
+    id: Retrieve
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/IDataSource.cs
+    startLine: 10
+  assemblies:
+  - Italbytz.Common.Abstractions
+  namespace: Italbytz.Common.Abstractions
+  summary: Retrieves an entity by its identifier.
+  example: []
+  syntax:
+    content: Task<TEntity?> Retrieve(TId id)
+    parameters:
+    - id: id
+      type: '{TId}'
+    return:
+      type: System.Threading.Tasks.Task{{TEntity}}
+    content.vb: Function Retrieve(id As TId) As Task(Of TEntity)
+  overload: Italbytz.Common.Abstractions.IDataSource`2.Retrieve*
+  nameWithType.vb: IDataSource(Of TId, TEntity).Retrieve(TId)
+  fullName.vb: Italbytz.Common.Abstractions.IDataSource(Of TId, TEntity).Retrieve(TId)
+- uid: Italbytz.Common.Abstractions.IDataSource`2.RetrieveAll
+  commentId: M:Italbytz.Common.Abstractions.IDataSource`2.RetrieveAll
+  id: RetrieveAll
+  parent: Italbytz.Common.Abstractions.IDataSource`2
+  langs:
+  - csharp
+  - vb
+  name: RetrieveAll()
+  nameWithType: IDataSource<TId, TEntity>.RetrieveAll()
+  fullName: Italbytz.Common.Abstractions.IDataSource<TId, TEntity>.RetrieveAll()
+  type: Method
+  source:
+    id: RetrieveAll
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/IDataSource.cs
+    startLine: 15
+  assemblies:
+  - Italbytz.Common.Abstractions
+  namespace: Italbytz.Common.Abstractions
+  summary: Retrieves all entities.
+  example: []
+  syntax:
+    content: Task<List<TEntity>?> RetrieveAll()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{{TEntity}}}
+    content.vb: Function RetrieveAll() As Task(Of List(Of TEntity))
+  overload: Italbytz.Common.Abstractions.IDataSource`2.RetrieveAll*
+  nameWithType.vb: IDataSource(Of TId, TEntity).RetrieveAll()
+  fullName.vb: Italbytz.Common.Abstractions.IDataSource(Of TId, TEntity).RetrieveAll()
+references:
+- uid: Italbytz.Common.Abstractions
+  commentId: N:Italbytz.Common.Abstractions
+  href: Italbytz.html
+  name: Italbytz.Common.Abstractions
+  nameWithType: Italbytz.Common.Abstractions
+  fullName: Italbytz.Common.Abstractions
+  spec.csharp:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Common
+    name: Common
+    href: Italbytz.Common.html
+  - name: .
+  - uid: Italbytz.Common.Abstractions
+    name: Abstractions
+    href: Italbytz.Common.Abstractions.html
+  spec.vb:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Common
+    name: Common
+    href: Italbytz.Common.html
+  - name: .
+  - uid: Italbytz.Common.Abstractions
+    name: Abstractions
+    href: Italbytz.Common.Abstractions.html
+- uid: Italbytz.Common.Abstractions.IDataSource`2.Retrieve*
+  commentId: Overload:Italbytz.Common.Abstractions.IDataSource`2.Retrieve
+  href: Italbytz.Common.Abstractions.IDataSource-2.html#Italbytz_Common_Abstractions_IDataSource_2_Retrieve__0_
+  name: Retrieve
+  nameWithType: IDataSource<TId, TEntity>.Retrieve
+  fullName: Italbytz.Common.Abstractions.IDataSource<TId, TEntity>.Retrieve
+  nameWithType.vb: IDataSource(Of TId, TEntity).Retrieve
+  fullName.vb: Italbytz.Common.Abstractions.IDataSource(Of TId, TEntity).Retrieve
+- uid: '{TId}'
+  commentId: '!:TId'
+  definition: TId
+  name: TId
+  nameWithType: TId
+  fullName: TId
+- uid: System.Threading.Tasks.Task{{TEntity}}
+  commentId: T:System.Threading.Tasks.Task{`1}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TEntity>
+  nameWithType: Task<TEntity>
+  fullName: System.Threading.Tasks.Task<TEntity>
+  nameWithType.vb: Task(Of TEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of TEntity)
+  name.vb: Task(Of TEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: TId
+  name: TId
+  nameWithType: TId
+  fullName: TId
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Italbytz.Common.Abstractions.IDataSource`2.RetrieveAll*
+  commentId: Overload:Italbytz.Common.Abstractions.IDataSource`2.RetrieveAll
+  href: Italbytz.Common.Abstractions.IDataSource-2.html#Italbytz_Common_Abstractions_IDataSource_2_RetrieveAll
+  name: RetrieveAll
+  nameWithType: IDataSource<TId, TEntity>.RetrieveAll
+  fullName: Italbytz.Common.Abstractions.IDataSource<TId, TEntity>.RetrieveAll
+  nameWithType.vb: IDataSource(Of TId, TEntity).RetrieveAll
+  fullName.vb: Italbytz.Common.Abstractions.IDataSource(Of TId, TEntity).RetrieveAll
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{{TEntity}}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{`1}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<List<TEntity>>
+  nameWithType: Task<List<TEntity>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<TEntity>>
+  nameWithType.vb: Task(Of List(Of TEntity))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of TEntity))
+  name.vb: Task(Of List(Of TEntity))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: TEntity
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+  - name: )

@@ -1,0 +1,107 @@
+### YamlMime:ManagedReference
+items:
+- uid: Italbytz.Common.Abstractions.IService`1
+  commentId: T:Italbytz.Common.Abstractions.IService`1
+  id: IService`1
+  parent: Italbytz.Common.Abstractions
+  children:
+  - Italbytz.Common.Abstractions.IService`1.Execute
+  langs:
+  - csharp
+  - vb
+  name: IService<TOutDto>
+  nameWithType: IService<TOutDto>
+  fullName: Italbytz.Common.Abstractions.IService<TOutDto>
+  type: Interface
+  source:
+    id: IService
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/IService.cs
+    startLine: 13
+  assemblies:
+  - Italbytz.Common.Abstractions
+  namespace: Italbytz.Common.Abstractions
+  summary: Synchronous service contract without input.
+  example: []
+  syntax:
+    content: public interface IService<out TOutDto>
+    typeParameters:
+    - id: TOutDto
+    content.vb: Public Interface IService(Of Out TOutDto)
+  nameWithType.vb: IService(Of TOutDto)
+  fullName.vb: Italbytz.Common.Abstractions.IService(Of TOutDto)
+  name.vb: IService(Of TOutDto)
+- uid: Italbytz.Common.Abstractions.IService`1.Execute
+  commentId: M:Italbytz.Common.Abstractions.IService`1.Execute
+  id: Execute
+  parent: Italbytz.Common.Abstractions.IService`1
+  langs:
+  - csharp
+  - vb
+  name: Execute()
+  nameWithType: IService<TOutDto>.Execute()
+  fullName: Italbytz.Common.Abstractions.IService<TOutDto>.Execute()
+  type: Method
+  source:
+    id: Execute
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/IService.cs
+    startLine: 15
+  assemblies:
+  - Italbytz.Common.Abstractions
+  namespace: Italbytz.Common.Abstractions
+  syntax:
+    content: TOutDto Execute()
+    return:
+      type: '{TOutDto}'
+    content.vb: Function Execute() As TOutDto
+  overload: Italbytz.Common.Abstractions.IService`1.Execute*
+  nameWithType.vb: IService(Of TOutDto).Execute()
+  fullName.vb: Italbytz.Common.Abstractions.IService(Of TOutDto).Execute()
+references:
+- uid: Italbytz.Common.Abstractions
+  commentId: N:Italbytz.Common.Abstractions
+  href: Italbytz.html
+  name: Italbytz.Common.Abstractions
+  nameWithType: Italbytz.Common.Abstractions
+  fullName: Italbytz.Common.Abstractions
+  spec.csharp:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Common
+    name: Common
+    href: Italbytz.Common.html
+  - name: .
+  - uid: Italbytz.Common.Abstractions
+    name: Abstractions
+    href: Italbytz.Common.Abstractions.html
+  spec.vb:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Common
+    name: Common
+    href: Italbytz.Common.html
+  - name: .
+  - uid: Italbytz.Common.Abstractions
+    name: Abstractions
+    href: Italbytz.Common.Abstractions.html
+- uid: Italbytz.Common.Abstractions.IService`1.Execute*
+  commentId: Overload:Italbytz.Common.Abstractions.IService`1.Execute
+  href: Italbytz.Common.Abstractions.IService-1.html#Italbytz_Common_Abstractions_IService_1_Execute
+  name: Execute
+  nameWithType: IService<TOutDto>.Execute
+  fullName: Italbytz.Common.Abstractions.IService<TOutDto>.Execute
+  nameWithType.vb: IService(Of TOutDto).Execute
+  fullName.vb: Italbytz.Common.Abstractions.IService(Of TOutDto).Execute
+- uid: '{TOutDto}'
+  commentId: '!:TOutDto'
+  definition: TOutDto
+  name: TOutDto
+  nameWithType: TOutDto
+  fullName: TOutDto
+- uid: TOutDto
+  name: TOutDto
+  nameWithType: TOutDto
+  fullName: TOutDto

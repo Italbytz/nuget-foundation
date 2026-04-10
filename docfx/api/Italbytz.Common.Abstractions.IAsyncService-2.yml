@@ -1,0 +1,205 @@
+### YamlMime:ManagedReference
+items:
+- uid: Italbytz.Common.Abstractions.IAsyncService`2
+  commentId: T:Italbytz.Common.Abstractions.IAsyncService`2
+  id: IAsyncService`2
+  parent: Italbytz.Common.Abstractions
+  children:
+  - Italbytz.Common.Abstractions.IAsyncService`2.Execute(`0)
+  langs:
+  - csharp
+  - vb
+  name: IAsyncService<TInDto, TOutDto>
+  nameWithType: IAsyncService<TInDto, TOutDto>
+  fullName: Italbytz.Common.Abstractions.IAsyncService<TInDto, TOutDto>
+  type: Interface
+  source:
+    id: IAsyncService
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/IService.cs
+    startLine: 21
+  assemblies:
+  - Italbytz.Common.Abstractions
+  namespace: Italbytz.Common.Abstractions
+  summary: Asynchronous service contract with input and output.
+  example: []
+  syntax:
+    content: public interface IAsyncService<in TInDto, TOutDto>
+    typeParameters:
+    - id: TInDto
+    - id: TOutDto
+    content.vb: Public Interface IAsyncService(Of In TInDto, TOutDto)
+  nameWithType.vb: IAsyncService(Of TInDto, TOutDto)
+  fullName.vb: Italbytz.Common.Abstractions.IAsyncService(Of TInDto, TOutDto)
+  name.vb: IAsyncService(Of TInDto, TOutDto)
+- uid: Italbytz.Common.Abstractions.IAsyncService`2.Execute(`0)
+  commentId: M:Italbytz.Common.Abstractions.IAsyncService`2.Execute(`0)
+  id: Execute(`0)
+  parent: Italbytz.Common.Abstractions.IAsyncService`2
+  langs:
+  - csharp
+  - vb
+  name: Execute(TInDto)
+  nameWithType: IAsyncService<TInDto, TOutDto>.Execute(TInDto)
+  fullName: Italbytz.Common.Abstractions.IAsyncService<TInDto, TOutDto>.Execute(TInDto)
+  type: Method
+  source:
+    id: Execute
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/IService.cs
+    startLine: 23
+  assemblies:
+  - Italbytz.Common.Abstractions
+  namespace: Italbytz.Common.Abstractions
+  syntax:
+    content: Task<TOutDto> Execute(TInDto inDto)
+    parameters:
+    - id: inDto
+      type: '{TInDto}'
+    return:
+      type: System.Threading.Tasks.Task{{TOutDto}}
+    content.vb: Function Execute(inDto As TInDto) As Task(Of TOutDto)
+  overload: Italbytz.Common.Abstractions.IAsyncService`2.Execute*
+  nameWithType.vb: IAsyncService(Of TInDto, TOutDto).Execute(TInDto)
+  fullName.vb: Italbytz.Common.Abstractions.IAsyncService(Of TInDto, TOutDto).Execute(TInDto)
+references:
+- uid: Italbytz.Common.Abstractions
+  commentId: N:Italbytz.Common.Abstractions
+  href: Italbytz.html
+  name: Italbytz.Common.Abstractions
+  nameWithType: Italbytz.Common.Abstractions
+  fullName: Italbytz.Common.Abstractions
+  spec.csharp:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Common
+    name: Common
+    href: Italbytz.Common.html
+  - name: .
+  - uid: Italbytz.Common.Abstractions
+    name: Abstractions
+    href: Italbytz.Common.Abstractions.html
+  spec.vb:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Common
+    name: Common
+    href: Italbytz.Common.html
+  - name: .
+  - uid: Italbytz.Common.Abstractions
+    name: Abstractions
+    href: Italbytz.Common.Abstractions.html
+- uid: Italbytz.Common.Abstractions.IAsyncService`2.Execute*
+  commentId: Overload:Italbytz.Common.Abstractions.IAsyncService`2.Execute
+  href: Italbytz.Common.Abstractions.IAsyncService-2.html#Italbytz_Common_Abstractions_IAsyncService_2_Execute__0_
+  name: Execute
+  nameWithType: IAsyncService<TInDto, TOutDto>.Execute
+  fullName: Italbytz.Common.Abstractions.IAsyncService<TInDto, TOutDto>.Execute
+  nameWithType.vb: IAsyncService(Of TInDto, TOutDto).Execute
+  fullName.vb: Italbytz.Common.Abstractions.IAsyncService(Of TInDto, TOutDto).Execute
+- uid: '{TInDto}'
+  commentId: '!:TInDto'
+  definition: TInDto
+  name: TInDto
+  nameWithType: TInDto
+  fullName: TInDto
+- uid: System.Threading.Tasks.Task{{TOutDto}}
+  commentId: T:System.Threading.Tasks.Task{`1}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TOutDto>
+  nameWithType: Task<TOutDto>
+  fullName: System.Threading.Tasks.Task<TOutDto>
+  nameWithType.vb: Task(Of TOutDto)
+  fullName.vb: System.Threading.Tasks.Task(Of TOutDto)
+  name.vb: Task(Of TOutDto)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TOutDto
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TOutDto
+  - name: )
+- uid: TInDto
+  name: TInDto
+  nameWithType: TInDto
+  fullName: TInDto
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

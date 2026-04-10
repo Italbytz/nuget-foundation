@@ -1,0 +1,63 @@
+### YamlMime:ManagedReference
+items:
+- uid: Italbytz.Common.Abstractions.IRepository`2
+  commentId: T:Italbytz.Common.Abstractions.IRepository`2
+  id: IRepository`2
+  parent: Italbytz.Common.Abstractions
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IRepository<TId, TEntity>
+  nameWithType: IRepository<TId, TEntity>
+  fullName: Italbytz.Common.Abstractions.IRepository<TId, TEntity>
+  type: Interface
+  source:
+    id: IRepository
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/IRepository.cs
+    startLine: 5
+  assemblies:
+  - Italbytz.Common.Abstractions
+  namespace: Italbytz.Common.Abstractions
+  summary: Marker interface for repository contracts.
+  example: []
+  syntax:
+    content: public interface IRepository<TId, TEntity>
+    typeParameters:
+    - id: TId
+    - id: TEntity
+    content.vb: Public Interface IRepository(Of TId, TEntity)
+  nameWithType.vb: IRepository(Of TId, TEntity)
+  fullName.vb: Italbytz.Common.Abstractions.IRepository(Of TId, TEntity)
+  name.vb: IRepository(Of TId, TEntity)
+references:
+- uid: Italbytz.Common.Abstractions
+  commentId: N:Italbytz.Common.Abstractions
+  href: Italbytz.html
+  name: Italbytz.Common.Abstractions
+  nameWithType: Italbytz.Common.Abstractions
+  fullName: Italbytz.Common.Abstractions
+  spec.csharp:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Common
+    name: Common
+    href: Italbytz.Common.html
+  - name: .
+  - uid: Italbytz.Common.Abstractions
+    name: Abstractions
+    href: Italbytz.Common.Abstractions.html
+  spec.vb:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Common
+    name: Common
+    href: Italbytz.Common.html
+  - name: .
+  - uid: Italbytz.Common.Abstractions
+    name: Abstractions
+    href: Italbytz.Common.Abstractions.html

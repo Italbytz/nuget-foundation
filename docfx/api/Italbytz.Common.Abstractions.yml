@@ -1,0 +1,286 @@
+### YamlMime:ManagedReference
+items:
+- uid: Italbytz.Common.Abstractions
+  commentId: N:Italbytz.Common.Abstractions
+  id: Italbytz.Common.Abstractions
+  children:
+  - Italbytz.Common.Abstractions.IAsyncService`1
+  - Italbytz.Common.Abstractions.IAsyncService`2
+  - Italbytz.Common.Abstractions.ICrudRepository`2
+  - Italbytz.Common.Abstractions.IDataSink`2
+  - Italbytz.Common.Abstractions.IDataSource`2
+  - Italbytz.Common.Abstractions.IRepository`2
+  - Italbytz.Common.Abstractions.IService`1
+  - Italbytz.Common.Abstractions.IService`2
+  - Italbytz.Common.Abstractions.Result`1
+  langs:
+  - csharp
+  - vb
+  name: Italbytz.Common.Abstractions
+  nameWithType: Italbytz.Common.Abstractions
+  fullName: Italbytz.Common.Abstractions
+  type: Namespace
+  assemblies:
+  - Italbytz.Common.Abstractions
+references:
+- uid: Italbytz.Common.Abstractions.ICrudRepository`2
+  commentId: T:Italbytz.Common.Abstractions.ICrudRepository`2
+  href: Italbytz.Common.Abstractions.ICrudRepository-2.html
+  name: ICrudRepository<TId, TEntity>
+  nameWithType: ICrudRepository<TId, TEntity>
+  fullName: Italbytz.Common.Abstractions.ICrudRepository<TId, TEntity>
+  nameWithType.vb: ICrudRepository(Of TId, TEntity)
+  fullName.vb: Italbytz.Common.Abstractions.ICrudRepository(Of TId, TEntity)
+  name.vb: ICrudRepository(Of TId, TEntity)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.ICrudRepository`2
+    name: ICrudRepository
+    href: Italbytz.Common.Abstractions.ICrudRepository-2.html
+  - name: <
+  - name: TId
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.ICrudRepository`2
+    name: ICrudRepository
+    href: Italbytz.Common.Abstractions.ICrudRepository-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TId
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: Italbytz.Common.Abstractions.IDataSink`2
+  commentId: T:Italbytz.Common.Abstractions.IDataSink`2
+  href: Italbytz.Common.Abstractions.IDataSink-2.html
+  name: IDataSink<TId, TEntity>
+  nameWithType: IDataSink<TId, TEntity>
+  fullName: Italbytz.Common.Abstractions.IDataSink<TId, TEntity>
+  nameWithType.vb: IDataSink(Of TId, TEntity)
+  fullName.vb: Italbytz.Common.Abstractions.IDataSink(Of TId, TEntity)
+  name.vb: IDataSink(Of TId, TEntity)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IDataSink`2
+    name: IDataSink
+    href: Italbytz.Common.Abstractions.IDataSink-2.html
+  - name: <
+  - name: TId
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IDataSink`2
+    name: IDataSink
+    href: Italbytz.Common.Abstractions.IDataSink-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TId
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: Italbytz.Common.Abstractions.IDataSource`2
+  commentId: T:Italbytz.Common.Abstractions.IDataSource`2
+  href: Italbytz.Common.Abstractions.IDataSource-2.html
+  name: IDataSource<TId, TEntity>
+  nameWithType: IDataSource<TId, TEntity>
+  fullName: Italbytz.Common.Abstractions.IDataSource<TId, TEntity>
+  nameWithType.vb: IDataSource(Of TId, TEntity)
+  fullName.vb: Italbytz.Common.Abstractions.IDataSource(Of TId, TEntity)
+  name.vb: IDataSource(Of TId, TEntity)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IDataSource`2
+    name: IDataSource
+    href: Italbytz.Common.Abstractions.IDataSource-2.html
+  - name: <
+  - name: TId
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IDataSource`2
+    name: IDataSource
+    href: Italbytz.Common.Abstractions.IDataSource-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TId
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: Italbytz.Common.Abstractions.IRepository`2
+  commentId: T:Italbytz.Common.Abstractions.IRepository`2
+  href: Italbytz.Common.Abstractions.IRepository-2.html
+  name: IRepository<TId, TEntity>
+  nameWithType: IRepository<TId, TEntity>
+  fullName: Italbytz.Common.Abstractions.IRepository<TId, TEntity>
+  nameWithType.vb: IRepository(Of TId, TEntity)
+  fullName.vb: Italbytz.Common.Abstractions.IRepository(Of TId, TEntity)
+  name.vb: IRepository(Of TId, TEntity)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IRepository`2
+    name: IRepository
+    href: Italbytz.Common.Abstractions.IRepository-2.html
+  - name: <
+  - name: TId
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IRepository`2
+    name: IRepository
+    href: Italbytz.Common.Abstractions.IRepository-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TId
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: Italbytz.Common.Abstractions.IService`2
+  commentId: T:Italbytz.Common.Abstractions.IService`2
+  href: Italbytz.Common.Abstractions.IService-2.html
+  name: IService<TInDto, TOutDto>
+  nameWithType: IService<TInDto, TOutDto>
+  fullName: Italbytz.Common.Abstractions.IService<TInDto, TOutDto>
+  nameWithType.vb: IService(Of TInDto, TOutDto)
+  fullName.vb: Italbytz.Common.Abstractions.IService(Of TInDto, TOutDto)
+  name.vb: IService(Of TInDto, TOutDto)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IService`2
+    name: IService
+    href: Italbytz.Common.Abstractions.IService-2.html
+  - name: <
+  - name: TInDto
+  - name: ','
+  - name: " "
+  - name: TOutDto
+  - name: '>'
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IService`2
+    name: IService
+    href: Italbytz.Common.Abstractions.IService-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TInDto
+  - name: ','
+  - name: " "
+  - name: TOutDto
+  - name: )
+- uid: Italbytz.Common.Abstractions.IService`1
+  commentId: T:Italbytz.Common.Abstractions.IService`1
+  href: Italbytz.Common.Abstractions.IService-1.html
+  name: IService<TOutDto>
+  nameWithType: IService<TOutDto>
+  fullName: Italbytz.Common.Abstractions.IService<TOutDto>
+  nameWithType.vb: IService(Of TOutDto)
+  fullName.vb: Italbytz.Common.Abstractions.IService(Of TOutDto)
+  name.vb: IService(Of TOutDto)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IService`1
+    name: IService
+    href: Italbytz.Common.Abstractions.IService-1.html
+  - name: <
+  - name: TOutDto
+  - name: '>'
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IService`1
+    name: IService
+    href: Italbytz.Common.Abstractions.IService-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TOutDto
+  - name: )
+- uid: Italbytz.Common.Abstractions.IAsyncService`2
+  commentId: T:Italbytz.Common.Abstractions.IAsyncService`2
+  href: Italbytz.Common.Abstractions.IAsyncService-2.html
+  name: IAsyncService<TInDto, TOutDto>
+  nameWithType: IAsyncService<TInDto, TOutDto>
+  fullName: Italbytz.Common.Abstractions.IAsyncService<TInDto, TOutDto>
+  nameWithType.vb: IAsyncService(Of TInDto, TOutDto)
+  fullName.vb: Italbytz.Common.Abstractions.IAsyncService(Of TInDto, TOutDto)
+  name.vb: IAsyncService(Of TInDto, TOutDto)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IAsyncService`2
+    name: IAsyncService
+    href: Italbytz.Common.Abstractions.IAsyncService-2.html
+  - name: <
+  - name: TInDto
+  - name: ','
+  - name: " "
+  - name: TOutDto
+  - name: '>'
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IAsyncService`2
+    name: IAsyncService
+    href: Italbytz.Common.Abstractions.IAsyncService-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TInDto
+  - name: ','
+  - name: " "
+  - name: TOutDto
+  - name: )
+- uid: Italbytz.Common.Abstractions.IAsyncService`1
+  commentId: T:Italbytz.Common.Abstractions.IAsyncService`1
+  href: Italbytz.Common.Abstractions.IAsyncService-1.html
+  name: IAsyncService<TOutDto>
+  nameWithType: IAsyncService<TOutDto>
+  fullName: Italbytz.Common.Abstractions.IAsyncService<TOutDto>
+  nameWithType.vb: IAsyncService(Of TOutDto)
+  fullName.vb: Italbytz.Common.Abstractions.IAsyncService(Of TOutDto)
+  name.vb: IAsyncService(Of TOutDto)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IAsyncService`1
+    name: IAsyncService
+    href: Italbytz.Common.Abstractions.IAsyncService-1.html
+  - name: <
+  - name: TOutDto
+  - name: '>'
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IAsyncService`1
+    name: IAsyncService
+    href: Italbytz.Common.Abstractions.IAsyncService-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TOutDto
+  - name: )
+- uid: Italbytz.Common.Abstractions.Result`1
+  commentId: T:Italbytz.Common.Abstractions.Result`1
+  href: Italbytz.Common.Abstractions.Result-1.html
+  name: Result<T>
+  nameWithType: Result<T>
+  fullName: Italbytz.Common.Abstractions.Result<T>
+  nameWithType.vb: Result(Of T)
+  fullName.vb: Italbytz.Common.Abstractions.Result(Of T)
+  name.vb: Result(Of T)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.Result`1
+    name: Result
+    href: Italbytz.Common.Abstractions.Result-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.Result`1
+    name: Result
+    href: Italbytz.Common.Abstractions.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

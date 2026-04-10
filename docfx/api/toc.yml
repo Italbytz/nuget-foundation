@@ -1,0 +1,76 @@
+### YamlMime:TableOfContent
+items:
+- uid: Italbytz.Common.Abstractions
+  name: Italbytz.Common.Abstractions
+  type: Namespace
+  items:
+  - uid: Italbytz.Common.Abstractions.IAsyncService`1
+    name: IAsyncService<TOutDto>
+    type: Interface
+  - uid: Italbytz.Common.Abstractions.IAsyncService`2
+    name: IAsyncService<TInDto, TOutDto>
+    type: Interface
+  - uid: Italbytz.Common.Abstractions.ICrudRepository`2
+    name: ICrudRepository<TId, TEntity>
+    type: Interface
+  - uid: Italbytz.Common.Abstractions.IDataSink`2
+    name: IDataSink<TId, TEntity>
+    type: Interface
+  - uid: Italbytz.Common.Abstractions.IDataSource`2
+    name: IDataSource<TId, TEntity>
+    type: Interface
+  - uid: Italbytz.Common.Abstractions.IRepository`2
+    name: IRepository<TId, TEntity>
+    type: Interface
+  - uid: Italbytz.Common.Abstractions.IService`1
+    name: IService<TOutDto>
+    type: Interface
+  - uid: Italbytz.Common.Abstractions.IService`2
+    name: IService<TInDto, TOutDto>
+    type: Interface
+  - uid: Italbytz.Common.Abstractions.Result`1
+    name: Result<T>
+    type: Class
+- uid: Italbytz.Common.Random
+  name: Italbytz.Common.Random
+  type: Namespace
+  items:
+  - uid: Italbytz.Common.Random.RandomExtensions
+    name: RandomExtensions
+    type: Class
+- uid: Italbytz.Documents.OpenXml
+  name: Italbytz.Documents.OpenXml
+  type: Namespace
+  items:
+  - uid: Italbytz.Documents.OpenXml.PresentationConverter
+    name: PresentationConverter
+    type: Class
+  - uid: Italbytz.Documents.OpenXml.PresentationDocumentExtensions
+    name: PresentationDocumentExtensions
+    type: Class
+  - uid: Italbytz.Documents.OpenXml.ShapeExtensions
+    name: ShapeExtensions
+    type: Class
+  - uid: Italbytz.Documents.OpenXml.TextInSlide
+    name: TextInSlide
+    type: Class
+- uid: Italbytz.Music.Abstractions
+  name: Italbytz.Music.Abstractions
+  type: Namespace
+  items:
+  - uid: Italbytz.Music.Abstractions.ICollectionEntity
+    name: ICollectionEntity
+    type: Interface
+  - uid: Italbytz.Music.Abstractions.ISearchTerm
+    name: ISearchTerm
+    type: Interface
+  - uid: Italbytz.Music.Abstractions.ISearchTracksService
+    name: ISearchTracksService
+    type: Interface
+  - uid: Italbytz.Music.Abstractions.ITrackEntity
+    name: ITrackEntity
+    type: Interface
+  - uid: Italbytz.Music.Abstractions.ITunesSearchEngine
+    name: ITunesSearchEngine
+    type: Interface
+memberLayout: SamePage

@@ -1,0 +1,530 @@
+### YamlMime:ManagedReference
+items:
+- uid: Italbytz.Common.Abstractions.Result`1
+  commentId: T:Italbytz.Common.Abstractions.Result`1
+  id: Result`1
+  parent: Italbytz.Common.Abstractions
+  children:
+  - Italbytz.Common.Abstractions.Result`1.#ctor(`0)
+  - Italbytz.Common.Abstractions.Result`1.Map``1(System.Func{`0,``0})
+  - Italbytz.Common.Abstractions.Result`1.Value
+  langs:
+  - csharp
+  - vb
+  name: Result<T>
+  nameWithType: Result<T>
+  fullName: Italbytz.Common.Abstractions.Result<T>
+  type: Class
+  source:
+    id: Result
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/Result.cs
+    startLine: 5
+  assemblies:
+  - Italbytz.Common.Abstractions
+  namespace: Italbytz.Common.Abstractions
+  summary: Minimal result wrapper used by several existing ports.
+  example: []
+  syntax:
+    content: public sealed class Result<T>
+    typeParameters:
+    - id: T
+    content.vb: Public NotInheritable Class Result(Of T)
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: Result(Of T)
+  fullName.vb: Italbytz.Common.Abstractions.Result(Of T)
+  name.vb: Result(Of T)
+- uid: Italbytz.Common.Abstractions.Result`1.#ctor(`0)
+  commentId: M:Italbytz.Common.Abstractions.Result`1.#ctor(`0)
+  id: '#ctor(`0)'
+  parent: Italbytz.Common.Abstractions.Result`1
+  langs:
+  - csharp
+  - vb
+  name: Result(T)
+  nameWithType: Result<T>.Result(T)
+  fullName: Italbytz.Common.Abstractions.Result<T>.Result(T)
+  type: Constructor
+  source:
+    id: .ctor
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/Result.cs
+    startLine: 7
+  assemblies:
+  - Italbytz.Common.Abstractions
+  namespace: Italbytz.Common.Abstractions
+  syntax:
+    content: public Result(T value)
+    parameters:
+    - id: value
+      type: '{T}'
+    content.vb: Public Sub New(value As T)
+  overload: Italbytz.Common.Abstractions.Result`1.#ctor*
+  nameWithType.vb: Result(Of T).New(T)
+  fullName.vb: Italbytz.Common.Abstractions.Result(Of T).New(T)
+  name.vb: New(T)
+- uid: Italbytz.Common.Abstractions.Result`1.Value
+  commentId: P:Italbytz.Common.Abstractions.Result`1.Value
+  id: Value
+  parent: Italbytz.Common.Abstractions.Result`1
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: Result<T>.Value
+  fullName: Italbytz.Common.Abstractions.Result<T>.Value
+  type: Property
+  source:
+    id: Value
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/Result.cs
+    startLine: 12
+  assemblies:
+  - Italbytz.Common.Abstractions
+  namespace: Italbytz.Common.Abstractions
+  syntax:
+    content: public T Value { get; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: Public ReadOnly Property Value As T
+  overload: Italbytz.Common.Abstractions.Result`1.Value*
+  nameWithType.vb: Result(Of T).Value
+  fullName.vb: Italbytz.Common.Abstractions.Result(Of T).Value
+- uid: Italbytz.Common.Abstractions.Result`1.Map``1(System.Func{`0,``0})
+  commentId: M:Italbytz.Common.Abstractions.Result`1.Map``1(System.Func{`0,``0})
+  id: Map``1(System.Func{`0,``0})
+  parent: Italbytz.Common.Abstractions.Result`1
+  langs:
+  - csharp
+  - vb
+  name: Map<TOut>(Func<T, TOut>)
+  nameWithType: Result<T>.Map<TOut>(Func<T, TOut>)
+  fullName: Italbytz.Common.Abstractions.Result<T>.Map<TOut>(System.Func<T, TOut>)
+  type: Method
+  source:
+    id: Map
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/Result.cs
+    startLine: 14
+  assemblies:
+  - Italbytz.Common.Abstractions
+  namespace: Italbytz.Common.Abstractions
+  syntax:
+    content: public Result<TOut> Map<TOut>(Func<T, TOut> mapper)
+    parameters:
+    - id: mapper
+      type: System.Func{{T},{TOut}}
+    typeParameters:
+    - id: TOut
+    return:
+      type: Italbytz.Common.Abstractions.Result{{TOut}}
+    content.vb: Public Function Map(Of TOut)(mapper As Func(Of T, TOut)) As Result(Of TOut)
+  overload: Italbytz.Common.Abstractions.Result`1.Map*
+  nameWithType.vb: Result(Of T).Map(Of TOut)(Func(Of T, TOut))
+  fullName.vb: Italbytz.Common.Abstractions.Result(Of T).Map(Of TOut)(System.Func(Of T, TOut))
+  name.vb: Map(Of TOut)(Func(Of T, TOut))
+references:
+- uid: Italbytz.Common.Abstractions
+  commentId: N:Italbytz.Common.Abstractions
+  href: Italbytz.html
+  name: Italbytz.Common.Abstractions
+  nameWithType: Italbytz.Common.Abstractions
+  fullName: Italbytz.Common.Abstractions
+  spec.csharp:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Common
+    name: Common
+    href: Italbytz.Common.html
+  - name: .
+  - uid: Italbytz.Common.Abstractions
+    name: Abstractions
+    href: Italbytz.Common.Abstractions.html
+  spec.vb:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Common
+    name: Common
+    href: Italbytz.Common.html
+  - name: .
+  - uid: Italbytz.Common.Abstractions
+    name: Abstractions
+    href: Italbytz.Common.Abstractions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Italbytz.Common.Abstractions.Result`1.#ctor*
+  commentId: Overload:Italbytz.Common.Abstractions.Result`1.#ctor
+  href: Italbytz.Common.Abstractions.Result-1.html#Italbytz_Common_Abstractions_Result_1__ctor__0_
+  name: Result
+  nameWithType: Result<T>.Result
+  fullName: Italbytz.Common.Abstractions.Result<T>.Result
+  nameWithType.vb: Result(Of T).New
+  fullName.vb: Italbytz.Common.Abstractions.Result(Of T).New
+  name.vb: New
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Italbytz.Common.Abstractions.Result`1.Value*
+  commentId: Overload:Italbytz.Common.Abstractions.Result`1.Value
+  href: Italbytz.Common.Abstractions.Result-1.html#Italbytz_Common_Abstractions_Result_1_Value
+  name: Value
+  nameWithType: Result<T>.Value
+  fullName: Italbytz.Common.Abstractions.Result<T>.Value
+  nameWithType.vb: Result(Of T).Value
+  fullName.vb: Italbytz.Common.Abstractions.Result(Of T).Value
+- uid: Italbytz.Common.Abstractions.Result`1.Map*
+  commentId: Overload:Italbytz.Common.Abstractions.Result`1.Map
+  href: Italbytz.Common.Abstractions.Result-1.html#Italbytz_Common_Abstractions_Result_1_Map__1_System_Func__0___0__
+  name: Map
+  nameWithType: Result<T>.Map
+  fullName: Italbytz.Common.Abstractions.Result<T>.Map
+  nameWithType.vb: Result(Of T).Map
+  fullName.vb: Italbytz.Common.Abstractions.Result(Of T).Map
+- uid: System.Func{{T},{TOut}}
+  commentId: T:System.Func{`0,``0}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TOut>
+  nameWithType: Func<T, TOut>
+  fullName: System.Func<T, TOut>
+  nameWithType.vb: Func(Of T, TOut)
+  fullName.vb: System.Func(Of T, TOut)
+  name.vb: Func(Of T, TOut)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TOut
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TOut
+  - name: )
+- uid: Italbytz.Common.Abstractions.Result{{TOut}}
+  commentId: T:Italbytz.Common.Abstractions.Result{``0}
+  parent: Italbytz.Common.Abstractions
+  definition: Italbytz.Common.Abstractions.Result`1
+  href: Italbytz.Common.Abstractions.Result-1.html
+  name: Result<TOut>
+  nameWithType: Result<TOut>
+  fullName: Italbytz.Common.Abstractions.Result<TOut>
+  nameWithType.vb: Result(Of TOut)
+  fullName.vb: Italbytz.Common.Abstractions.Result(Of TOut)
+  name.vb: Result(Of TOut)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.Result`1
+    name: Result
+    href: Italbytz.Common.Abstractions.Result-1.html
+  - name: <
+  - name: TOut
+  - name: '>'
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.Result`1
+    name: Result
+    href: Italbytz.Common.Abstractions.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TOut
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Italbytz.Common.Abstractions.Result`1
+  commentId: T:Italbytz.Common.Abstractions.Result`1
+  href: Italbytz.Common.Abstractions.Result-1.html
+  name: Result<T>
+  nameWithType: Result<T>
+  fullName: Italbytz.Common.Abstractions.Result<T>
+  nameWithType.vb: Result(Of T)
+  fullName.vb: Italbytz.Common.Abstractions.Result(Of T)
+  name.vb: Result(Of T)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.Result`1
+    name: Result
+    href: Italbytz.Common.Abstractions.Result-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.Result`1
+    name: Result
+    href: Italbytz.Common.Abstractions.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

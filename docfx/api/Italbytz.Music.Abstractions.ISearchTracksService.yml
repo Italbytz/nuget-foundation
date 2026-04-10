@@ -1,0 +1,223 @@
+### YamlMime:ManagedReference
+items:
+- uid: Italbytz.Music.Abstractions.ISearchTracksService
+  commentId: T:Italbytz.Music.Abstractions.ISearchTracksService
+  id: ISearchTracksService
+  parent: Italbytz.Music.Abstractions
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ISearchTracksService
+  nameWithType: ISearchTracksService
+  fullName: Italbytz.Music.Abstractions.ISearchTracksService
+  type: Interface
+  source:
+    id: ISearchTracksService
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Music.Abstractions/ISearchTracksService.cs
+    startLine: 4
+  assemblies:
+  - Italbytz.Music.Abstractions
+  namespace: Italbytz.Music.Abstractions
+  syntax:
+    content: 'public interface ISearchTracksService : IService<ISearchTerm, List<ICollectionEntity>>'
+    content.vb: Public Interface ISearchTracksService Inherits IService(Of ISearchTerm, List(Of ICollectionEntity))
+  inheritedMembers:
+  - Italbytz.Common.Abstractions.IService{Italbytz.Music.Abstractions.ISearchTerm,System.Collections.Generic.List{Italbytz.Music.Abstractions.ICollectionEntity}}.Execute(Italbytz.Music.Abstractions.ISearchTerm)
+references:
+- uid: Italbytz.Music.Abstractions
+  commentId: N:Italbytz.Music.Abstractions
+  href: Italbytz.html
+  name: Italbytz.Music.Abstractions
+  nameWithType: Italbytz.Music.Abstractions
+  fullName: Italbytz.Music.Abstractions
+  spec.csharp:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Music
+    name: Music
+    href: Italbytz.Music.html
+  - name: .
+  - uid: Italbytz.Music.Abstractions
+    name: Abstractions
+    href: Italbytz.Music.Abstractions.html
+  spec.vb:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Music
+    name: Music
+    href: Italbytz.Music.html
+  - name: .
+  - uid: Italbytz.Music.Abstractions
+    name: Abstractions
+    href: Italbytz.Music.Abstractions.html
+- uid: Italbytz.Common.Abstractions.IService{Italbytz.Music.Abstractions.ISearchTerm,System.Collections.Generic.List{Italbytz.Music.Abstractions.ICollectionEntity}}.Execute(Italbytz.Music.Abstractions.ISearchTerm)
+  commentId: M:Italbytz.Common.Abstractions.IService{Italbytz.Music.Abstractions.ISearchTerm,System.Collections.Generic.List{Italbytz.Music.Abstractions.ICollectionEntity}}.Execute(Italbytz.Music.Abstractions.ISearchTerm)
+  parent: Italbytz.Common.Abstractions.IService{Italbytz.Music.Abstractions.ISearchTerm,System.Collections.Generic.List{Italbytz.Music.Abstractions.ICollectionEntity}}
+  definition: Italbytz.Common.Abstractions.IService`2.Execute(`0)
+  href: Italbytz.Common.Abstractions.IService-2.html#Italbytz_Common_Abstractions_IService_2_Execute__0_
+  name: Execute(ISearchTerm)
+  nameWithType: IService<ISearchTerm, List<ICollectionEntity>>.Execute(ISearchTerm)
+  fullName: Italbytz.Common.Abstractions.IService<Italbytz.Music.Abstractions.ISearchTerm, System.Collections.Generic.List<Italbytz.Music.Abstractions.ICollectionEntity>>.Execute(Italbytz.Music.Abstractions.ISearchTerm)
+  nameWithType.vb: IService(Of ISearchTerm, List(Of ICollectionEntity)).Execute(ISearchTerm)
+  fullName.vb: Italbytz.Common.Abstractions.IService(Of Italbytz.Music.Abstractions.ISearchTerm, System.Collections.Generic.List(Of Italbytz.Music.Abstractions.ICollectionEntity)).Execute(Italbytz.Music.Abstractions.ISearchTerm)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IService{Italbytz.Music.Abstractions.ISearchTerm,System.Collections.Generic.List{Italbytz.Music.Abstractions.ICollectionEntity}}.Execute(Italbytz.Music.Abstractions.ISearchTerm)
+    name: Execute
+    href: Italbytz.Common.Abstractions.IService-2.html#Italbytz_Common_Abstractions_IService_2_Execute__0_
+  - name: (
+  - uid: Italbytz.Music.Abstractions.ISearchTerm
+    name: ISearchTerm
+    href: Italbytz.Music.Abstractions.ISearchTerm.html
+  - name: )
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IService{Italbytz.Music.Abstractions.ISearchTerm,System.Collections.Generic.List{Italbytz.Music.Abstractions.ICollectionEntity}}.Execute(Italbytz.Music.Abstractions.ISearchTerm)
+    name: Execute
+    href: Italbytz.Common.Abstractions.IService-2.html#Italbytz_Common_Abstractions_IService_2_Execute__0_
+  - name: (
+  - uid: Italbytz.Music.Abstractions.ISearchTerm
+    name: ISearchTerm
+    href: Italbytz.Music.Abstractions.ISearchTerm.html
+  - name: )
+- uid: Italbytz.Common.Abstractions.IService`2.Execute(`0)
+  commentId: M:Italbytz.Common.Abstractions.IService`2.Execute(`0)
+  href: Italbytz.Common.Abstractions.IService-2.html#Italbytz_Common_Abstractions_IService_2_Execute__0_
+  name: Execute(TInDto)
+  nameWithType: IService<TInDto, TOutDto>.Execute(TInDto)
+  fullName: Italbytz.Common.Abstractions.IService<TInDto, TOutDto>.Execute(TInDto)
+  nameWithType.vb: IService(Of TInDto, TOutDto).Execute(TInDto)
+  fullName.vb: Italbytz.Common.Abstractions.IService(Of TInDto, TOutDto).Execute(TInDto)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IService`2.Execute(`0)
+    name: Execute
+    href: Italbytz.Common.Abstractions.IService-2.html#Italbytz_Common_Abstractions_IService_2_Execute__0_
+  - name: (
+  - name: TInDto
+  - name: )
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IService`2.Execute(`0)
+    name: Execute
+    href: Italbytz.Common.Abstractions.IService-2.html#Italbytz_Common_Abstractions_IService_2_Execute__0_
+  - name: (
+  - name: TInDto
+  - name: )
+- uid: Italbytz.Common.Abstractions.IService{Italbytz.Music.Abstractions.ISearchTerm,System.Collections.Generic.List{Italbytz.Music.Abstractions.ICollectionEntity}}
+  commentId: T:Italbytz.Common.Abstractions.IService{Italbytz.Music.Abstractions.ISearchTerm,System.Collections.Generic.List{Italbytz.Music.Abstractions.ICollectionEntity}}
+  parent: Italbytz.Common.Abstractions
+  definition: Italbytz.Common.Abstractions.IService`2
+  href: Italbytz.Common.Abstractions.IService-2.html
+  name: IService<ISearchTerm, List<ICollectionEntity>>
+  nameWithType: IService<ISearchTerm, List<ICollectionEntity>>
+  fullName: Italbytz.Common.Abstractions.IService<Italbytz.Music.Abstractions.ISearchTerm, System.Collections.Generic.List<Italbytz.Music.Abstractions.ICollectionEntity>>
+  nameWithType.vb: IService(Of ISearchTerm, List(Of ICollectionEntity))
+  fullName.vb: Italbytz.Common.Abstractions.IService(Of Italbytz.Music.Abstractions.ISearchTerm, System.Collections.Generic.List(Of Italbytz.Music.Abstractions.ICollectionEntity))
+  name.vb: IService(Of ISearchTerm, List(Of ICollectionEntity))
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IService`2
+    name: IService
+    href: Italbytz.Common.Abstractions.IService-2.html
+  - name: <
+  - uid: Italbytz.Music.Abstractions.ISearchTerm
+    name: ISearchTerm
+    href: Italbytz.Music.Abstractions.ISearchTerm.html
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Italbytz.Music.Abstractions.ICollectionEntity
+    name: ICollectionEntity
+    href: Italbytz.Music.Abstractions.ICollectionEntity.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IService`2
+    name: IService
+    href: Italbytz.Common.Abstractions.IService-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Italbytz.Music.Abstractions.ISearchTerm
+    name: ISearchTerm
+    href: Italbytz.Music.Abstractions.ISearchTerm.html
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Italbytz.Music.Abstractions.ICollectionEntity
+    name: ICollectionEntity
+    href: Italbytz.Music.Abstractions.ICollectionEntity.html
+  - name: )
+  - name: )
+- uid: Italbytz.Common.Abstractions.IService`2
+  commentId: T:Italbytz.Common.Abstractions.IService`2
+  href: Italbytz.Common.Abstractions.IService-2.html
+  name: IService<TInDto, TOutDto>
+  nameWithType: IService<TInDto, TOutDto>
+  fullName: Italbytz.Common.Abstractions.IService<TInDto, TOutDto>
+  nameWithType.vb: IService(Of TInDto, TOutDto)
+  fullName.vb: Italbytz.Common.Abstractions.IService(Of TInDto, TOutDto)
+  name.vb: IService(Of TInDto, TOutDto)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IService`2
+    name: IService
+    href: Italbytz.Common.Abstractions.IService-2.html
+  - name: <
+  - name: TInDto
+  - name: ','
+  - name: " "
+  - name: TOutDto
+  - name: '>'
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IService`2
+    name: IService
+    href: Italbytz.Common.Abstractions.IService-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TInDto
+  - name: ','
+  - name: " "
+  - name: TOutDto
+  - name: )
+- uid: Italbytz.Common.Abstractions
+  commentId: N:Italbytz.Common.Abstractions
+  href: Italbytz.html
+  name: Italbytz.Common.Abstractions
+  nameWithType: Italbytz.Common.Abstractions
+  fullName: Italbytz.Common.Abstractions
+  spec.csharp:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Common
+    name: Common
+    href: Italbytz.Common.html
+  - name: .
+  - uid: Italbytz.Common.Abstractions
+    name: Abstractions
+    href: Italbytz.Common.Abstractions.html
+  spec.vb:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Common
+    name: Common
+    href: Italbytz.Common.html
+  - name: .
+  - uid: Italbytz.Common.Abstractions
+    name: Abstractions
+    href: Italbytz.Common.Abstractions.html

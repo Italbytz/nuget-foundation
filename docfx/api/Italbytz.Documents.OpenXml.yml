@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: Italbytz.Documents.OpenXml
+  commentId: N:Italbytz.Documents.OpenXml
+  id: Italbytz.Documents.OpenXml
+  children:
+  - Italbytz.Documents.OpenXml.PresentationConverter
+  - Italbytz.Documents.OpenXml.PresentationDocumentExtensions
+  - Italbytz.Documents.OpenXml.ShapeExtensions
+  - Italbytz.Documents.OpenXml.TextInSlide
+  langs:
+  - csharp
+  - vb
+  name: Italbytz.Documents.OpenXml
+  nameWithType: Italbytz.Documents.OpenXml
+  fullName: Italbytz.Documents.OpenXml
+  type: Namespace
+  assemblies:
+  - Italbytz.Documents.OpenXml
+references:
+- uid: Italbytz.Documents.OpenXml.PresentationConverter
+  commentId: T:Italbytz.Documents.OpenXml.PresentationConverter
+  href: Italbytz.Documents.OpenXml.PresentationConverter.html
+  name: PresentationConverter
+  nameWithType: PresentationConverter
+  fullName: Italbytz.Documents.OpenXml.PresentationConverter
+- uid: Italbytz.Documents.OpenXml.PresentationDocumentExtensions
+  commentId: T:Italbytz.Documents.OpenXml.PresentationDocumentExtensions
+  href: Italbytz.Documents.OpenXml.PresentationDocumentExtensions.html
+  name: PresentationDocumentExtensions
+  nameWithType: PresentationDocumentExtensions
+  fullName: Italbytz.Documents.OpenXml.PresentationDocumentExtensions
+- uid: Italbytz.Documents.OpenXml.ShapeExtensions
+  commentId: T:Italbytz.Documents.OpenXml.ShapeExtensions
+  href: Italbytz.Documents.OpenXml.ShapeExtensions.html
+  name: ShapeExtensions
+  nameWithType: ShapeExtensions
+  fullName: Italbytz.Documents.OpenXml.ShapeExtensions
+- uid: Italbytz.Documents.OpenXml.TextInSlide
+  commentId: T:Italbytz.Documents.OpenXml.TextInSlide
+  href: Italbytz.Documents.OpenXml.TextInSlide.html
+  name: TextInSlide
+  nameWithType: TextInSlide
+  fullName: Italbytz.Documents.OpenXml.TextInSlide

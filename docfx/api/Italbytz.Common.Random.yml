@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Italbytz.Common.Random
+  commentId: N:Italbytz.Common.Random
+  id: Italbytz.Common.Random
+  children:
+  - Italbytz.Common.Random.RandomExtensions
+  langs:
+  - csharp
+  - vb
+  name: Italbytz.Common.Random
+  nameWithType: Italbytz.Common.Random
+  fullName: Italbytz.Common.Random
+  type: Namespace
+  assemblies:
+  - Italbytz.Common.Random
+references:
+- uid: Italbytz.Common.Random.RandomExtensions
+  commentId: T:Italbytz.Common.Random.RandomExtensions
+  href: Italbytz.Common.Random.RandomExtensions.html
+  name: RandomExtensions
+  nameWithType: RandomExtensions
+  fullName: Italbytz.Common.Random.RandomExtensions

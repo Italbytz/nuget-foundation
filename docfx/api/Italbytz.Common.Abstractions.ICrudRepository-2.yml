@@ -1,0 +1,435 @@
+### YamlMime:ManagedReference
+items:
+- uid: Italbytz.Common.Abstractions.ICrudRepository`2
+  commentId: T:Italbytz.Common.Abstractions.ICrudRepository`2
+  id: ICrudRepository`2
+  parent: Italbytz.Common.Abstractions
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ICrudRepository<TId, TEntity>
+  nameWithType: ICrudRepository<TId, TEntity>
+  fullName: Italbytz.Common.Abstractions.ICrudRepository<TId, TEntity>
+  type: Interface
+  source:
+    id: ICrudRepository
+    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/ICrudRepository.cs
+    startLine: 5
+  assemblies:
+  - Italbytz.Common.Abstractions
+  namespace: Italbytz.Common.Abstractions
+  summary: Repository contract with create, read, update, and delete operations.
+  example: []
+  syntax:
+    content: 'public interface ICrudRepository<TId, TEntity> : IRepository<TId, TEntity>, IDataSource<TId, TEntity>, IDataSink<TId, TEntity>'
+    typeParameters:
+    - id: TId
+    - id: TEntity
+    content.vb: Public Interface ICrudRepository(Of TId, TEntity) Inherits IRepository(Of TId, TEntity), IDataSource(Of TId, TEntity), IDataSink(Of TId, TEntity)
+  inheritedMembers:
+  - Italbytz.Common.Abstractions.IDataSource{{TId},{TEntity}}.Retrieve({TId})
+  - Italbytz.Common.Abstractions.IDataSource{{TId},{TEntity}}.RetrieveAll
+  - Italbytz.Common.Abstractions.IDataSink{{TId},{TEntity}}.Create({TEntity})
+  - Italbytz.Common.Abstractions.IDataSink{{TId},{TEntity}}.Update({TId},{TEntity})
+  - Italbytz.Common.Abstractions.IDataSink{{TId},{TEntity}}.Delete({TId})
+  nameWithType.vb: ICrudRepository(Of TId, TEntity)
+  fullName.vb: Italbytz.Common.Abstractions.ICrudRepository(Of TId, TEntity)
+  name.vb: ICrudRepository(Of TId, TEntity)
+references:
+- uid: Italbytz.Common.Abstractions
+  commentId: N:Italbytz.Common.Abstractions
+  href: Italbytz.html
+  name: Italbytz.Common.Abstractions
+  nameWithType: Italbytz.Common.Abstractions
+  fullName: Italbytz.Common.Abstractions
+  spec.csharp:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Common
+    name: Common
+    href: Italbytz.Common.html
+  - name: .
+  - uid: Italbytz.Common.Abstractions
+    name: Abstractions
+    href: Italbytz.Common.Abstractions.html
+  spec.vb:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Common
+    name: Common
+    href: Italbytz.Common.html
+  - name: .
+  - uid: Italbytz.Common.Abstractions
+    name: Abstractions
+    href: Italbytz.Common.Abstractions.html
+- uid: Italbytz.Common.Abstractions.IDataSource{{TId},{TEntity}}.Retrieve({TId})
+  commentId: M:Italbytz.Common.Abstractions.IDataSource{`0,`1}.Retrieve(`0)
+  parent: Italbytz.Common.Abstractions.IDataSource{{TId},{TEntity}}
+  definition: Italbytz.Common.Abstractions.IDataSource`2.Retrieve(`0)
+  href: Italbytz.Common.Abstractions.IDataSource-2.html#Italbytz_Common_Abstractions_IDataSource_2_Retrieve__0_
+  name: Retrieve(TId)
+  nameWithType: IDataSource<TId, TEntity>.Retrieve(TId)
+  fullName: Italbytz.Common.Abstractions.IDataSource<TId, TEntity>.Retrieve(TId)
+  nameWithType.vb: IDataSource(Of TId, TEntity).Retrieve(TId)
+  fullName.vb: Italbytz.Common.Abstractions.IDataSource(Of TId, TEntity).Retrieve(TId)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IDataSource{`0,`1}.Retrieve(`0)
+    name: Retrieve
+    href: Italbytz.Common.Abstractions.IDataSource-2.html#Italbytz_Common_Abstractions_IDataSource_2_Retrieve__0_
+  - name: (
+  - name: TId
+  - name: )
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IDataSource{`0,`1}.Retrieve(`0)
+    name: Retrieve
+    href: Italbytz.Common.Abstractions.IDataSource-2.html#Italbytz_Common_Abstractions_IDataSource_2_Retrieve__0_
+  - name: (
+  - name: TId
+  - name: )
+- uid: Italbytz.Common.Abstractions.IDataSource{{TId},{TEntity}}.RetrieveAll
+  commentId: M:Italbytz.Common.Abstractions.IDataSource{`0,`1}.RetrieveAll
+  parent: Italbytz.Common.Abstractions.IDataSource{{TId},{TEntity}}
+  definition: Italbytz.Common.Abstractions.IDataSource`2.RetrieveAll
+  href: Italbytz.Common.Abstractions.IDataSource-2.html#Italbytz_Common_Abstractions_IDataSource_2_RetrieveAll
+  name: RetrieveAll()
+  nameWithType: IDataSource<TId, TEntity>.RetrieveAll()
+  fullName: Italbytz.Common.Abstractions.IDataSource<TId, TEntity>.RetrieveAll()
+  nameWithType.vb: IDataSource(Of TId, TEntity).RetrieveAll()
+  fullName.vb: Italbytz.Common.Abstractions.IDataSource(Of TId, TEntity).RetrieveAll()
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IDataSource{`0,`1}.RetrieveAll
+    name: RetrieveAll
+    href: Italbytz.Common.Abstractions.IDataSource-2.html#Italbytz_Common_Abstractions_IDataSource_2_RetrieveAll
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IDataSource{`0,`1}.RetrieveAll
+    name: RetrieveAll
+    href: Italbytz.Common.Abstractions.IDataSource-2.html#Italbytz_Common_Abstractions_IDataSource_2_RetrieveAll
+  - name: (
+  - name: )
+- uid: Italbytz.Common.Abstractions.IDataSink{{TId},{TEntity}}.Create({TEntity})
+  commentId: M:Italbytz.Common.Abstractions.IDataSink{`0,`1}.Create(`1)
+  parent: Italbytz.Common.Abstractions.IDataSink{{TId},{TEntity}}
+  definition: Italbytz.Common.Abstractions.IDataSink`2.Create(`1)
+  href: Italbytz.Common.Abstractions.IDataSink-2.html#Italbytz_Common_Abstractions_IDataSink_2_Create__1_
+  name: Create(TEntity)
+  nameWithType: IDataSink<TId, TEntity>.Create(TEntity)
+  fullName: Italbytz.Common.Abstractions.IDataSink<TId, TEntity>.Create(TEntity)
+  nameWithType.vb: IDataSink(Of TId, TEntity).Create(TEntity)
+  fullName.vb: Italbytz.Common.Abstractions.IDataSink(Of TId, TEntity).Create(TEntity)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IDataSink{`0,`1}.Create(`1)
+    name: Create
+    href: Italbytz.Common.Abstractions.IDataSink-2.html#Italbytz_Common_Abstractions_IDataSink_2_Create__1_
+  - name: (
+  - name: TEntity
+  - name: )
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IDataSink{`0,`1}.Create(`1)
+    name: Create
+    href: Italbytz.Common.Abstractions.IDataSink-2.html#Italbytz_Common_Abstractions_IDataSink_2_Create__1_
+  - name: (
+  - name: TEntity
+  - name: )
+- uid: Italbytz.Common.Abstractions.IDataSink{{TId},{TEntity}}.Update({TId},{TEntity})
+  commentId: M:Italbytz.Common.Abstractions.IDataSink{`0,`1}.Update(`0,`1)
+  parent: Italbytz.Common.Abstractions.IDataSink{{TId},{TEntity}}
+  definition: Italbytz.Common.Abstractions.IDataSink`2.Update(`0,`1)
+  href: Italbytz.Common.Abstractions.IDataSink-2.html#Italbytz_Common_Abstractions_IDataSink_2_Update__0__1_
+  name: Update(TId, TEntity)
+  nameWithType: IDataSink<TId, TEntity>.Update(TId, TEntity)
+  fullName: Italbytz.Common.Abstractions.IDataSink<TId, TEntity>.Update(TId, TEntity)
+  nameWithType.vb: IDataSink(Of TId, TEntity).Update(TId, TEntity)
+  fullName.vb: Italbytz.Common.Abstractions.IDataSink(Of TId, TEntity).Update(TId, TEntity)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IDataSink{`0,`1}.Update(`0,`1)
+    name: Update
+    href: Italbytz.Common.Abstractions.IDataSink-2.html#Italbytz_Common_Abstractions_IDataSink_2_Update__0__1_
+  - name: (
+  - name: TId
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: )
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IDataSink{`0,`1}.Update(`0,`1)
+    name: Update
+    href: Italbytz.Common.Abstractions.IDataSink-2.html#Italbytz_Common_Abstractions_IDataSink_2_Update__0__1_
+  - name: (
+  - name: TId
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: Italbytz.Common.Abstractions.IDataSink{{TId},{TEntity}}.Delete({TId})
+  commentId: M:Italbytz.Common.Abstractions.IDataSink{`0,`1}.Delete(`0)
+  parent: Italbytz.Common.Abstractions.IDataSink{{TId},{TEntity}}
+  definition: Italbytz.Common.Abstractions.IDataSink`2.Delete(`0)
+  href: Italbytz.Common.Abstractions.IDataSink-2.html#Italbytz_Common_Abstractions_IDataSink_2_Delete__0_
+  name: Delete(TId)
+  nameWithType: IDataSink<TId, TEntity>.Delete(TId)
+  fullName: Italbytz.Common.Abstractions.IDataSink<TId, TEntity>.Delete(TId)
+  nameWithType.vb: IDataSink(Of TId, TEntity).Delete(TId)
+  fullName.vb: Italbytz.Common.Abstractions.IDataSink(Of TId, TEntity).Delete(TId)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IDataSink{`0,`1}.Delete(`0)
+    name: Delete
+    href: Italbytz.Common.Abstractions.IDataSink-2.html#Italbytz_Common_Abstractions_IDataSink_2_Delete__0_
+  - name: (
+  - name: TId
+  - name: )
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IDataSink{`0,`1}.Delete(`0)
+    name: Delete
+    href: Italbytz.Common.Abstractions.IDataSink-2.html#Italbytz_Common_Abstractions_IDataSink_2_Delete__0_
+  - name: (
+  - name: TId
+  - name: )
+- uid: Italbytz.Common.Abstractions.IDataSource`2.Retrieve(`0)
+  commentId: M:Italbytz.Common.Abstractions.IDataSource`2.Retrieve(`0)
+  href: Italbytz.Common.Abstractions.IDataSource-2.html#Italbytz_Common_Abstractions_IDataSource_2_Retrieve__0_
+  name: Retrieve(TId)
+  nameWithType: IDataSource<TId, TEntity>.Retrieve(TId)
+  fullName: Italbytz.Common.Abstractions.IDataSource<TId, TEntity>.Retrieve(TId)
+  nameWithType.vb: IDataSource(Of TId, TEntity).Retrieve(TId)
+  fullName.vb: Italbytz.Common.Abstractions.IDataSource(Of TId, TEntity).Retrieve(TId)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IDataSource`2.Retrieve(`0)
+    name: Retrieve
+    href: Italbytz.Common.Abstractions.IDataSource-2.html#Italbytz_Common_Abstractions_IDataSource_2_Retrieve__0_
+  - name: (
+  - name: TId
+  - name: )
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IDataSource`2.Retrieve(`0)
+    name: Retrieve
+    href: Italbytz.Common.Abstractions.IDataSource-2.html#Italbytz_Common_Abstractions_IDataSource_2_Retrieve__0_
+  - name: (
+  - name: TId
+  - name: )
+- uid: Italbytz.Common.Abstractions.IDataSource{{TId},{TEntity}}
+  commentId: T:Italbytz.Common.Abstractions.IDataSource{`0,`1}
+  parent: Italbytz.Common.Abstractions
+  definition: Italbytz.Common.Abstractions.IDataSource`2
+  href: Italbytz.Common.Abstractions.IDataSource-2.html
+  name: IDataSource<TId, TEntity>
+  nameWithType: IDataSource<TId, TEntity>
+  fullName: Italbytz.Common.Abstractions.IDataSource<TId, TEntity>
+  nameWithType.vb: IDataSource(Of TId, TEntity)
+  fullName.vb: Italbytz.Common.Abstractions.IDataSource(Of TId, TEntity)
+  name.vb: IDataSource(Of TId, TEntity)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IDataSource`2
+    name: IDataSource
+    href: Italbytz.Common.Abstractions.IDataSource-2.html
+  - name: <
+  - name: TId
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IDataSource`2
+    name: IDataSource
+    href: Italbytz.Common.Abstractions.IDataSource-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TId
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: Italbytz.Common.Abstractions.IDataSource`2.RetrieveAll
+  commentId: M:Italbytz.Common.Abstractions.IDataSource`2.RetrieveAll
+  href: Italbytz.Common.Abstractions.IDataSource-2.html#Italbytz_Common_Abstractions_IDataSource_2_RetrieveAll
+  name: RetrieveAll()
+  nameWithType: IDataSource<TId, TEntity>.RetrieveAll()
+  fullName: Italbytz.Common.Abstractions.IDataSource<TId, TEntity>.RetrieveAll()
+  nameWithType.vb: IDataSource(Of TId, TEntity).RetrieveAll()
+  fullName.vb: Italbytz.Common.Abstractions.IDataSource(Of TId, TEntity).RetrieveAll()
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IDataSource`2.RetrieveAll
+    name: RetrieveAll
+    href: Italbytz.Common.Abstractions.IDataSource-2.html#Italbytz_Common_Abstractions_IDataSource_2_RetrieveAll
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IDataSource`2.RetrieveAll
+    name: RetrieveAll
+    href: Italbytz.Common.Abstractions.IDataSource-2.html#Italbytz_Common_Abstractions_IDataSource_2_RetrieveAll
+  - name: (
+  - name: )
+- uid: Italbytz.Common.Abstractions.IDataSink`2.Create(`1)
+  commentId: M:Italbytz.Common.Abstractions.IDataSink`2.Create(`1)
+  href: Italbytz.Common.Abstractions.IDataSink-2.html#Italbytz_Common_Abstractions_IDataSink_2_Create__1_
+  name: Create(TEntity)
+  nameWithType: IDataSink<TId, TEntity>.Create(TEntity)
+  fullName: Italbytz.Common.Abstractions.IDataSink<TId, TEntity>.Create(TEntity)
+  nameWithType.vb: IDataSink(Of TId, TEntity).Create(TEntity)
+  fullName.vb: Italbytz.Common.Abstractions.IDataSink(Of TId, TEntity).Create(TEntity)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IDataSink`2.Create(`1)
+    name: Create
+    href: Italbytz.Common.Abstractions.IDataSink-2.html#Italbytz_Common_Abstractions_IDataSink_2_Create__1_
+  - name: (
+  - name: TEntity
+  - name: )
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IDataSink`2.Create(`1)
+    name: Create
+    href: Italbytz.Common.Abstractions.IDataSink-2.html#Italbytz_Common_Abstractions_IDataSink_2_Create__1_
+  - name: (
+  - name: TEntity
+  - name: )
+- uid: Italbytz.Common.Abstractions.IDataSink{{TId},{TEntity}}
+  commentId: T:Italbytz.Common.Abstractions.IDataSink{`0,`1}
+  parent: Italbytz.Common.Abstractions
+  definition: Italbytz.Common.Abstractions.IDataSink`2
+  href: Italbytz.Common.Abstractions.IDataSink-2.html
+  name: IDataSink<TId, TEntity>
+  nameWithType: IDataSink<TId, TEntity>
+  fullName: Italbytz.Common.Abstractions.IDataSink<TId, TEntity>
+  nameWithType.vb: IDataSink(Of TId, TEntity)
+  fullName.vb: Italbytz.Common.Abstractions.IDataSink(Of TId, TEntity)
+  name.vb: IDataSink(Of TId, TEntity)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IDataSink`2
+    name: IDataSink
+    href: Italbytz.Common.Abstractions.IDataSink-2.html
+  - name: <
+  - name: TId
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IDataSink`2
+    name: IDataSink
+    href: Italbytz.Common.Abstractions.IDataSink-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TId
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: Italbytz.Common.Abstractions.IDataSink`2.Update(`0,`1)
+  commentId: M:Italbytz.Common.Abstractions.IDataSink`2.Update(`0,`1)
+  href: Italbytz.Common.Abstractions.IDataSink-2.html#Italbytz_Common_Abstractions_IDataSink_2_Update__0__1_
+  name: Update(TId, TEntity)
+  nameWithType: IDataSink<TId, TEntity>.Update(TId, TEntity)
+  fullName: Italbytz.Common.Abstractions.IDataSink<TId, TEntity>.Update(TId, TEntity)
+  nameWithType.vb: IDataSink(Of TId, TEntity).Update(TId, TEntity)
+  fullName.vb: Italbytz.Common.Abstractions.IDataSink(Of TId, TEntity).Update(TId, TEntity)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IDataSink`2.Update(`0,`1)
+    name: Update
+    href: Italbytz.Common.Abstractions.IDataSink-2.html#Italbytz_Common_Abstractions_IDataSink_2_Update__0__1_
+  - name: (
+  - name: TId
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: )
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IDataSink`2.Update(`0,`1)
+    name: Update
+    href: Italbytz.Common.Abstractions.IDataSink-2.html#Italbytz_Common_Abstractions_IDataSink_2_Update__0__1_
+  - name: (
+  - name: TId
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: Italbytz.Common.Abstractions.IDataSink`2.Delete(`0)
+  commentId: M:Italbytz.Common.Abstractions.IDataSink`2.Delete(`0)
+  href: Italbytz.Common.Abstractions.IDataSink-2.html#Italbytz_Common_Abstractions_IDataSink_2_Delete__0_
+  name: Delete(TId)
+  nameWithType: IDataSink<TId, TEntity>.Delete(TId)
+  fullName: Italbytz.Common.Abstractions.IDataSink<TId, TEntity>.Delete(TId)
+  nameWithType.vb: IDataSink(Of TId, TEntity).Delete(TId)
+  fullName.vb: Italbytz.Common.Abstractions.IDataSink(Of TId, TEntity).Delete(TId)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IDataSink`2.Delete(`0)
+    name: Delete
+    href: Italbytz.Common.Abstractions.IDataSink-2.html#Italbytz_Common_Abstractions_IDataSink_2_Delete__0_
+  - name: (
+  - name: TId
+  - name: )
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IDataSink`2.Delete(`0)
+    name: Delete
+    href: Italbytz.Common.Abstractions.IDataSink-2.html#Italbytz_Common_Abstractions_IDataSink_2_Delete__0_
+  - name: (
+  - name: TId
+  - name: )
+- uid: Italbytz.Common.Abstractions.IDataSource`2
+  commentId: T:Italbytz.Common.Abstractions.IDataSource`2
+  href: Italbytz.Common.Abstractions.IDataSource-2.html
+  name: IDataSource<TId, TEntity>
+  nameWithType: IDataSource<TId, TEntity>
+  fullName: Italbytz.Common.Abstractions.IDataSource<TId, TEntity>
+  nameWithType.vb: IDataSource(Of TId, TEntity)
+  fullName.vb: Italbytz.Common.Abstractions.IDataSource(Of TId, TEntity)
+  name.vb: IDataSource(Of TId, TEntity)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IDataSource`2
+    name: IDataSource
+    href: Italbytz.Common.Abstractions.IDataSource-2.html
+  - name: <
+  - name: TId
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IDataSource`2
+    name: IDataSource
+    href: Italbytz.Common.Abstractions.IDataSource-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TId
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: Italbytz.Common.Abstractions.IDataSink`2
+  commentId: T:Italbytz.Common.Abstractions.IDataSink`2
+  href: Italbytz.Common.Abstractions.IDataSink-2.html
+  name: IDataSink<TId, TEntity>
+  nameWithType: IDataSink<TId, TEntity>
+  fullName: Italbytz.Common.Abstractions.IDataSink<TId, TEntity>
+  nameWithType.vb: IDataSink(Of TId, TEntity)
+  fullName.vb: Italbytz.Common.Abstractions.IDataSink(Of TId, TEntity)
+  name.vb: IDataSink(Of TId, TEntity)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IDataSink`2
+    name: IDataSink
+    href: Italbytz.Common.Abstractions.IDataSink-2.html
+  - name: <
+  - name: TId
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IDataSink`2
+    name: IDataSink
+    href: Italbytz.Common.Abstractions.IDataSink-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TId
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: )
