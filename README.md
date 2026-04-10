@@ -1,15 +1,31 @@
 # nuget-foundation
 
-Foundation repository for the first refactored `Italbytz.*` packages.
+`nuget-foundation` bundles the first shared building blocks of the refactored `Italbytz.*` package family.
 
-## Current packages
+It is intended for developers who need reusable **common abstractions**, **random helpers**, **Open XML utilities**, and **music-related contracts** without pulling in larger domain packages.
 
-- `Italbytz.Common.Abstractions`
-- `Italbytz.Common.Random`
-- `Italbytz.Documents.OpenXml`
-- `Italbytz.Music.Abstractions`
+## Packages in this repository
 
-## Migration notice
+### `Italbytz.Common.Abstractions`
+Shared interfaces and result types for repository, service, source, and sink patterns.
+
+### `Italbytz.Common.Random`
+Small reusable extensions around random number generation.
+
+### `Italbytz.Documents.OpenXml`
+Helpers for extracting and converting content from presentation documents via Open XML.
+
+### `Italbytz.Music.Abstractions`
+Contracts for music search scenarios and track/collection entities.
+
+## Which package should I use?
+
+- Use `Italbytz.Common.Abstractions` if you need general reusable contracts.
+- Use `Italbytz.Common.Random` for lightweight helper extensions.
+- Use `Italbytz.Documents.OpenXml` for PowerPoint/Open XML document handling.
+- Use `Italbytz.Music.Abstractions` if you want to build music-related clients or services on top of shared interfaces.
+
+## Migration from older names
 
 Older articles, slides, and repositories may still refer to historical names such as:
 
@@ -22,15 +38,25 @@ Older articles, slides, and repositories may still refer to historical names suc
 - `nuget-openxml`
 - `nuget-ports-music`
 
-Please use the new package names for all new development.
+For all new development, please use the new package names listed above.
 
-## Build and docs
+## Documentation
 
-This repository now includes a baseline `GitHub Actions` workflow in `.github/workflows/ci.yml` and a `docfx` setup under `docfx/`.
+API documentation is generated with `docfx` and published via GitHub Pages:
 
-For GitHub Pages deployment, enable **Settings → Pages → Build and deployment → Source = GitHub Actions** in the repository.
+- `https://italbytz.github.io/nuget-foundation/`
 
-Local validation commands:
+If the URL still returns `404`, wait until the `CI` workflow on `main` has completed the first Pages publish run.
+
+## Quality checks
+
+This repository includes:
+
+- a `GitHub Actions` workflow in `.github/workflows/ci.yml`
+- automated `restore`, `build`, `test`, `pack`, and docs publication
+- a `docfx` setup under `docfx/`
+
+## Local validation
 
 ```bash
 dotnet restore nuget-foundation.sln
@@ -39,11 +65,3 @@ dotnet pack nuget-foundation.sln -c Release -v minimal
 dotnet tool restore
 dotnet tool run docfx docfx/docfx.json
 ```
-
-## Published documentation
-
-After the first successful GitHub Pages deployment, the generated `docfx` site will be available at:
-
-- `https://italbytz.github.io/nuget-foundation/`
-
-If the URL still returns `404`, wait until the `CI` workflow on `main` has completed the first Pages publish run.
