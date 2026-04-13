@@ -1,5 +1,7 @@
 # nuget-foundation
 
+[![Documentation](https://img.shields.io/badge/Documentation-GitHub%20Pages-blue?style=for-the-badge)](https://italbytz.github.io/nuget-foundation/)
+
 `nuget-foundation` bundles the first shared building blocks of the refactored `Italbytz.*` package family.
 
 It is intended for developers who need reusable **common abstractions**, **random helpers**, **Open XML utilities**, and **music-related contracts** without pulling in larger domain packages.
