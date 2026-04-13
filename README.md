@@ -25,21 +25,6 @@ Contracts for music search scenarios and track/collection entities.
 - Use `Italbytz.Documents.OpenXml` for PowerPoint/Open XML document handling.
 - Use `Italbytz.Music.Abstractions` if you want to build music-related clients or services on top of shared interfaces.
 
-## Migration from older names
-
-Older articles, slides, and repositories may still refer to historical names such as:
-
-- `Italbytz.Ports.Common`
-- `Italbytz.Extensions.Random`
-- `Italbytz.OpenXml`
-- `Italbytz.Ports.Music`
-- `nuget-ports-common`
-- `nuget-extensions-random`
-- `nuget-openxml`
-- `nuget-ports-music`
-
-For all new development, please use the new package names listed above.
-
 ## Documentation
 
 API documentation is generated with `docfx` and published via GitHub Pages:
