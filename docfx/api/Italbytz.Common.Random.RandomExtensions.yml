@@ -22,7 +22,7 @@ items:
   type: Class
   source:
     id: RandomExtensions
-    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
+    path: /Users/nunkesser/repos/work/artifacts/packages/dotnet/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
     startLine: 7
   assemblies:
   - Italbytz.Common.Random
@@ -56,7 +56,7 @@ items:
   type: Method
   source:
     id: NextDouble
-    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
+    path: /Users/nunkesser/repos/work/artifacts/packages/dotnet/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
     startLine: 9
   assemblies:
   - Italbytz.Common.Random
@@ -89,7 +89,7 @@ items:
   type: Method
   source:
     id: NextDouble
-    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
+    path: /Users/nunkesser/repos/work/artifacts/packages/dotnet/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
     startLine: 14
   assemblies:
   - Italbytz.Common.Random
@@ -124,7 +124,7 @@ items:
   type: Method
   source:
     id: RollDie
-    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
+    path: /Users/nunkesser/repos/work/artifacts/packages/dotnet/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
     startLine: 19
   assemblies:
   - Italbytz.Common.Random
@@ -157,7 +157,7 @@ items:
   type: Method
   source:
     id: Shuffle
-    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
+    path: /Users/nunkesser/repos/work/artifacts/packages/dotnet/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
     startLine: 24
   assemblies:
   - Italbytz.Common.Random
@@ -190,7 +190,7 @@ items:
   type: Method
   source:
     id: RandomElement
-    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
+    path: /Users/nunkesser/repos/work/artifacts/packages/dotnet/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
     startLine: 33
   assemblies:
   - Italbytz.Common.Random
@@ -225,7 +225,7 @@ items:
   type: Method
   source:
     id: NextIntArray
-    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
+    path: /Users/nunkesser/repos/work/artifacts/packages/dotnet/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
     startLine: 38
   assemblies:
   - Italbytz.Common.Random
@@ -262,7 +262,7 @@ items:
   type: Method
   source:
     id: NextUniqueIntArray
-    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
+    path: /Users/nunkesser/repos/work/artifacts/packages/dotnet/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
     startLine: 46
   assemblies:
   - Italbytz.Common.Random
@@ -299,7 +299,7 @@ items:
   type: Method
   source:
     id: ShuffledStrings
-    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
+    path: /Users/nunkesser/repos/work/artifacts/packages/dotnet/nuget-foundation/src/Italbytz.Common.Random/RandomExtensions.cs
     startLine: 57
   assemblies:
   - Italbytz.Common.Random

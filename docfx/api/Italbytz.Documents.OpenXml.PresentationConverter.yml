@@ -15,7 +15,7 @@ items:
   type: Class
   source:
     id: PresentationConverter
-    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Documents.OpenXml/PresentationConverter.cs
+    path: /Users/nunkesser/repos/work/artifacts/packages/dotnet/nuget-foundation/src/Italbytz.Documents.OpenXml/PresentationConverter.cs
     startLine: 4
   assemblies:
   - Italbytz.Documents.OpenXml
@@ -46,7 +46,7 @@ items:
   type: Method
   source:
     id: ConvertToQuartoMarkdown
-    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Documents.OpenXml/PresentationConverter.cs
+    path: /Users/nunkesser/repos/work/artifacts/packages/dotnet/nuget-foundation/src/Italbytz.Documents.OpenXml/PresentationConverter.cs
     startLine: 6
   assemblies:
   - Italbytz.Documents.OpenXml

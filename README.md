@@ -4,7 +4,7 @@
 
 `nuget-foundation` bundles the first shared building blocks of the refactored `Italbytz.*` package family.
 
-It is intended for developers who need reusable **common abstractions**, **random helpers**, **Open XML utilities**, and **music-related contracts** without pulling in larger domain packages.
+It is intended for developers who need reusable **common abstractions**, **random helpers**, and **Open XML utilities** without pulling in larger domain packages.
 
 ## Packages in this repository
 
@@ -17,15 +17,13 @@ Small reusable extensions around random number generation.
 ### `Italbytz.Documents.OpenXml`
 Helpers for extracting and converting content from presentation documents via Open XML.
 
-### `Italbytz.Music.Abstractions`
-Contracts for music search scenarios and track/collection entities.
-
 ## Which package should I use?
 
 - Use `Italbytz.Common.Abstractions` if you need general reusable contracts.
 - Use `Italbytz.Common.Random` for lightweight helper extensions.
 - Use `Italbytz.Documents.OpenXml` for PowerPoint/Open XML document handling.
-- Use `Italbytz.Music.Abstractions` if you want to build music-related clients or services on top of shared interfaces.
+
+Music-related contracts and clients now live in the dedicated `nuget-music` repository.
 
 ## Documentation
 
@@ -33,7 +31,7 @@ API documentation is generated with `docfx` and published via GitHub Pages:
 
 - `https://italbytz.github.io/nuget-foundation/`
 
-The doc site now also includes a short guide to the shared building blocks in this repo, covering common service/result abstractions, Open XML helpers, and music-related contracts.
+The doc site now also includes a short guide to the shared building blocks in this repo, covering common service/result abstractions and Open XML helpers.
 
 If the URL still returns `404`, wait until the `CI` workflow on `main` has completed the first Pages publish run.
 

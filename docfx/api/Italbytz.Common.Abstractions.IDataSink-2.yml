@@ -17,7 +17,7 @@ items:
   type: Interface
   source:
     id: IDataSink
-    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/IDataSink.cs
+    path: /Users/nunkesser/repos/work/artifacts/packages/dotnet/nuget-foundation/src/Italbytz.Common.Abstractions/IDataSink.cs
     startLine: 5
   assemblies:
   - Italbytz.Common.Abstractions
@@ -46,7 +46,7 @@ items:
   type: Method
   source:
     id: Create
-    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/IDataSink.cs
+    path: /Users/nunkesser/repos/work/artifacts/packages/dotnet/nuget-foundation/src/Italbytz.Common.Abstractions/IDataSink.cs
     startLine: 10
   assemblies:
   - Italbytz.Common.Abstractions
@@ -77,7 +77,7 @@ items:
   type: Method
   source:
     id: Update
-    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/IDataSink.cs
+    path: /Users/nunkesser/repos/work/artifacts/packages/dotnet/nuget-foundation/src/Italbytz.Common.Abstractions/IDataSink.cs
     startLine: 15
   assemblies:
   - Italbytz.Common.Abstractions
@@ -110,7 +110,7 @@ items:
   type: Method
   source:
     id: Delete
-    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/IDataSink.cs
+    path: /Users/nunkesser/repos/work/artifacts/packages/dotnet/nuget-foundation/src/Italbytz.Common.Abstractions/IDataSink.cs
     startLine: 20
   assemblies:
   - Italbytz.Common.Abstractions

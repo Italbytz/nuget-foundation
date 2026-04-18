@@ -16,7 +16,7 @@ items:
   type: Interface
   source:
     id: IDataSource
-    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/IDataSource.cs
+    path: /Users/nunkesser/repos/work/artifacts/packages/dotnet/nuget-foundation/src/Italbytz.Common.Abstractions/IDataSource.cs
     startLine: 5
   assemblies:
   - Italbytz.Common.Abstractions
@@ -45,7 +45,7 @@ items:
   type: Method
   source:
     id: Retrieve
-    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/IDataSource.cs
+    path: /Users/nunkesser/repos/work/artifacts/packages/dotnet/nuget-foundation/src/Italbytz.Common.Abstractions/IDataSource.cs
     startLine: 10
   assemblies:
   - Italbytz.Common.Abstractions
@@ -76,7 +76,7 @@ items:
   type: Method
   source:
     id: RetrieveAll
-    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/IDataSource.cs
+    path: /Users/nunkesser/repos/work/artifacts/packages/dotnet/nuget-foundation/src/Italbytz.Common.Abstractions/IDataSource.cs
     startLine: 15
   assemblies:
   - Italbytz.Common.Abstractions

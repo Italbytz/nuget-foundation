@@ -20,7 +20,7 @@
     <ContinuousIntegrationBuild Condition="'$(GITHUB_ACTIONS)' == 'true'">true</ContinuousIntegrationBuild>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <PackageTags>italbytz;foundation;common;openxml;music</PackageTags>
+    <PackageTags>italbytz;foundation;common;openxml</PackageTags>
     <Version>1.0.1</Version>
     <PackRelease>true</PackRelease>
   </PropertyGroup>

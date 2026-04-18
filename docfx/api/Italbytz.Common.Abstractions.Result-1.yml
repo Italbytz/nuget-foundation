@@ -17,7 +17,7 @@ items:
   type: Class
   source:
     id: Result
-    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/Result.cs
+    path: /Users/nunkesser/repos/work/artifacts/packages/dotnet/nuget-foundation/src/Italbytz.Common.Abstractions/Result.cs
     startLine: 5
   assemblies:
   - Italbytz.Common.Abstractions
@@ -54,7 +54,7 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/Result.cs
+    path: /Users/nunkesser/repos/work/artifacts/packages/dotnet/nuget-foundation/src/Italbytz.Common.Abstractions/Result.cs
     startLine: 7
   assemblies:
   - Italbytz.Common.Abstractions
@@ -82,7 +82,7 @@ items:
   type: Property
   source:
     id: Value
-    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/Result.cs
+    path: /Users/nunkesser/repos/work/artifacts/packages/dotnet/nuget-foundation/src/Italbytz.Common.Abstractions/Result.cs
     startLine: 12
   assemblies:
   - Italbytz.Common.Abstractions
@@ -109,7 +109,7 @@ items:
   type: Method
   source:
     id: Map
-    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/Result.cs
+    path: /Users/nunkesser/repos/work/artifacts/packages/dotnet/nuget-foundation/src/Italbytz.Common.Abstractions/Result.cs
     startLine: 14
   assemblies:
   - Italbytz.Common.Abstractions

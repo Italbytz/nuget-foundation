@@ -14,7 +14,7 @@ items:
   type: Interface
   source:
     id: IRepository
-    path: /Users/nunkesser/repos/work/artifacts/nuget-foundation/src/Italbytz.Common.Abstractions/IRepository.cs
+    path: /Users/nunkesser/repos/work/artifacts/packages/dotnet/nuget-foundation/src/Italbytz.Common.Abstractions/IRepository.cs
     startLine: 5
   assemblies:
   - Italbytz.Common.Abstractions

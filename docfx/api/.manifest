@@ -41,21 +41,5 @@
   "Italbytz.Documents.OpenXml.ShapeExtensions.IsHeader(DocumentFormat.OpenXml.Presentation.Shape)": "Italbytz.Documents.OpenXml.ShapeExtensions.yml",
   "Italbytz.Documents.OpenXml.ShapeExtensions.IsTitle(DocumentFormat.OpenXml.Presentation.Shape)": "Italbytz.Documents.OpenXml.ShapeExtensions.yml",
   "Italbytz.Documents.OpenXml.TextInSlide": "Italbytz.Documents.OpenXml.TextInSlide.yml",
-  "Italbytz.Documents.OpenXml.TextInSlide.GetAllTextInSlide(System.String,System.Int32)": "Italbytz.Documents.OpenXml.TextInSlide.yml",
-  "Italbytz.Music.Abstractions": "Italbytz.Music.Abstractions.yml",
-  "Italbytz.Music.Abstractions.ICollectionEntity": "Italbytz.Music.Abstractions.ICollectionEntity.yml",
-  "Italbytz.Music.Abstractions.ICollectionEntity.Name": "Italbytz.Music.Abstractions.ICollectionEntity.yml",
-  "Italbytz.Music.Abstractions.ICollectionEntity.Tracks": "Italbytz.Music.Abstractions.ICollectionEntity.yml",
-  "Italbytz.Music.Abstractions.ISearchTerm": "Italbytz.Music.Abstractions.ISearchTerm.yml",
-  "Italbytz.Music.Abstractions.ISearchTerm.Term": "Italbytz.Music.Abstractions.ISearchTerm.yml",
-  "Italbytz.Music.Abstractions.ISearchTracksService": "Italbytz.Music.Abstractions.ISearchTracksService.yml",
-  "Italbytz.Music.Abstractions.ITrackEntity": "Italbytz.Music.Abstractions.ITrackEntity.yml",
-  "Italbytz.Music.Abstractions.ITrackEntity.ArtistName": "Italbytz.Music.Abstractions.ITrackEntity.yml",
-  "Italbytz.Music.Abstractions.ITrackEntity.ArtworkUrl": "Italbytz.Music.Abstractions.ITrackEntity.yml",
-  "Italbytz.Music.Abstractions.ITrackEntity.CollectionName": "Italbytz.Music.Abstractions.ITrackEntity.yml",
-  "Italbytz.Music.Abstractions.ITrackEntity.DiscNumber": "Italbytz.Music.Abstractions.ITrackEntity.yml",
-  "Italbytz.Music.Abstractions.ITrackEntity.TrackName": "Italbytz.Music.Abstractions.ITrackEntity.yml",
-  "Italbytz.Music.Abstractions.ITrackEntity.TrackNumber": "Italbytz.Music.Abstractions.ITrackEntity.yml",
-  "Italbytz.Music.Abstractions.ITunesSearchEngine": "Italbytz.Music.Abstractions.ITunesSearchEngine.yml",
-  "Italbytz.Music.Abstractions.ITunesSearchEngine.GetSongs(System.String)": "Italbytz.Music.Abstractions.ITunesSearchEngine.yml"
+  "Italbytz.Documents.OpenXml.TextInSlide.GetAllTextInSlide(System.String,System.Int32)": "Italbytz.Documents.OpenXml.TextInSlide.yml"
 }

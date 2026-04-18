@@ -54,23 +54,4 @@ items:
   - uid: Italbytz.Documents.OpenXml.TextInSlide
     name: TextInSlide
     type: Class
-- uid: Italbytz.Music.Abstractions
-  name: Italbytz.Music.Abstractions
-  type: Namespace
-  items:
-  - uid: Italbytz.Music.Abstractions.ICollectionEntity
-    name: ICollectionEntity
-    type: Interface
-  - uid: Italbytz.Music.Abstractions.ISearchTerm
-    name: ISearchTerm
-    type: Interface
-  - uid: Italbytz.Music.Abstractions.ISearchTracksService
-    name: ISearchTracksService
-    type: Interface
-  - uid: Italbytz.Music.Abstractions.ITrackEntity
-    name: ITrackEntity
-    type: Interface
-  - uid: Italbytz.Music.Abstractions.ITunesSearchEngine
-    name: ITunesSearchEngine
-    type: Interface
 memberLayout: SamePage

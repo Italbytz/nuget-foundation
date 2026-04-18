@@ -5,11 +5,10 @@
 - `Italbytz.Common.Abstractions`
 - `Italbytz.Common.Random`
 - `Italbytz.Documents.OpenXml`
-- `Italbytz.Music.Abstractions`
 
 ## Guide
 
-Use `Guides > Shared building blocks` for a quick orientation across the common contracts, Open XML helpers, and music abstractions that other repositories build on top of.
+Use `Guides > Shared building blocks` for a quick orientation across the common contracts and Open XML helpers that other repositories build on top of.
 
 ## Local validation
 
